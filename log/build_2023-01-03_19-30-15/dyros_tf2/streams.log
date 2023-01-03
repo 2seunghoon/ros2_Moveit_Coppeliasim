@@ -1,0 +1,27 @@
+[1.589s] Invoking command in '/home/dyros/ros2_ws2/src/dyros_tf2': PYTHONPATH=/home/dyros/ros2_ws2/build/dyros_tf2/prefix_override:/home/dyros/ros2_ws2/install/dyros_tf2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dyros_tf2 build --build-base /home/dyros/ros2_ws2/build/dyros_tf2/build install --record /home/dyros/ros2_ws2/build/dyros_tf2/install.log --single-version-externally-managed
+[2.077s] running egg_info
+[2.079s] writing ../../build/dyros_tf2/dyros_tf2.egg-info/PKG-INFO
+[2.079s] writing dependency_links to ../../build/dyros_tf2/dyros_tf2.egg-info/dependency_links.txt
+[2.079s] writing entry points to ../../build/dyros_tf2/dyros_tf2.egg-info/entry_points.txt
+[2.080s] writing requirements to ../../build/dyros_tf2/dyros_tf2.egg-info/requires.txt
+[2.080s] writing top-level names to ../../build/dyros_tf2/dyros_tf2.egg-info/top_level.txt
+[2.083s] reading manifest file '../../build/dyros_tf2/dyros_tf2.egg-info/SOURCES.txt'
+[2.097s] writing manifest file '../../build/dyros_tf2/dyros_tf2.egg-info/SOURCES.txt'
+[2.097s] running build
+[2.097s] running build_py
+[2.098s] copying dyros_tf2/fixed_tf2_broadcaster.py -> /home/dyros/ros2_ws2/build/dyros_tf2/build/lib/dyros_tf2
+[2.098s] running install
+[2.099s] running install_lib
+[2.100s] copying /home/dyros/ros2_ws2/build/dyros_tf2/build/lib/dyros_tf2/fixed_tf2_broadcaster.py -> /home/dyros/ros2_ws2/install/dyros_tf2/lib/python3.10/site-packages/dyros_tf2
+[2.101s] byte-compiling /home/dyros/ros2_ws2/install/dyros_tf2/lib/python3.10/site-packages/dyros_tf2/fixed_tf2_broadcaster.py to fixed_tf2_broadcaster.cpython-310.pyc
+[2.102s] running install_data
+[2.103s] running install_egg_info
+[2.106s] removing '/home/dyros/ros2_ws2/install/dyros_tf2/lib/python3.10/site-packages/dyros_tf2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.106s] Copying ../../build/dyros_tf2/dyros_tf2.egg-info to /home/dyros/ros2_ws2/install/dyros_tf2/lib/python3.10/site-packages/dyros_tf2-0.0.0-py3.10.egg-info
+[2.109s] running install_scripts
+[2.143s] Installing fixed_tf2_broadcaster script to /home/dyros/ros2_ws2/install/dyros_tf2/lib/dyros_tf2
+[2.144s] Installing tf2_broadcaster script to /home/dyros/ros2_ws2/install/dyros_tf2/lib/dyros_tf2
+[2.144s] Installing tf2_listener script to /home/dyros/ros2_ws2/install/dyros_tf2/lib/dyros_tf2
+[2.144s] Installing tf2_static_broadcaster script to /home/dyros/ros2_ws2/install/dyros_tf2/lib/dyros_tf2
+[2.144s] writing list of installed files to '/home/dyros/ros2_ws2/build/dyros_tf2/install.log'
+[2.187s] Invoked command in '/home/dyros/ros2_ws2/src/dyros_tf2' returned '0': PYTHONPATH=/home/dyros/ros2_ws2/build/dyros_tf2/prefix_override:/home/dyros/ros2_ws2/install/dyros_tf2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dyros_tf2 build --build-base /home/dyros/ros2_ws2/build/dyros_tf2/build install --record /home/dyros/ros2_ws2/build/dyros_tf2/install.log --single-version-externally-managed

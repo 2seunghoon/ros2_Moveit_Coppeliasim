@@ -1,0 +1,9 @@
+/home/dyros/ros2_ws2/build/dyros_urdf_tf/CMakeFiles/uninstall.dir
+/home/dyros/ros2_ws2/build/dyros_urdf_tf/CMakeFiles/dyros_urdf_tf_uninstall.dir
+/home/dyros/ros2_ws2/build/dyros_urdf_tf/CMakeFiles/test.dir
+/home/dyros/ros2_ws2/build/dyros_urdf_tf/CMakeFiles/edit_cache.dir
+/home/dyros/ros2_ws2/build/dyros_urdf_tf/CMakeFiles/rebuild_cache.dir
+/home/dyros/ros2_ws2/build/dyros_urdf_tf/CMakeFiles/list_install_components.dir
+/home/dyros/ros2_ws2/build/dyros_urdf_tf/CMakeFiles/install.dir
+/home/dyros/ros2_ws2/build/dyros_urdf_tf/CMakeFiles/install/local.dir
+/home/dyros/ros2_ws2/build/dyros_urdf_tf/CMakeFiles/install/strip.dir

@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages",
+        "/home/dyros/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages",
+        "/home/dyros/ros2_ws/install/dyros_cmake_python/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

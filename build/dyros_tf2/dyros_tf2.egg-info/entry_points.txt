@@ -1,0 +1,6 @@
+[console_scripts]
+fixed_tf2_broadcaster = dyros_tf2.fixed_tf2_broadcaster:main
+tf2_broadcaster = dyros_tf2.tf2_broadcaster:main
+tf2_listener = dyros_tf2.tf2_listener:main
+tf2_static_broadcaster = dyros_tf2.tf2_static_broadcaster:main
+
