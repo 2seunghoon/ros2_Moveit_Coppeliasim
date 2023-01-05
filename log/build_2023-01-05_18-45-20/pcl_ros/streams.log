@@ -1,0 +1,653 @@
+[0.034s] Invoking command in '/home/dyros/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dyros/ros2_ws/src/pcl_ros -DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/pcl_ros
+[0.167s] -- The C compiler identification is GNU 11.3.0
+[0.266s] -- The CXX compiler identification is GNU 11.3.0
+[0.276s] -- Detecting C compiler ABI info
+[0.411s] -- Detecting C compiler ABI info - done
+[0.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.427s] -- Detecting C compile features
+[0.427s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.605s] -- Detecting CXX compiler ABI info - done
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.616s] -- Detecting CXX compile features
+[0.617s] -- Detecting CXX compile features - done
+[0.681s] -- Checking for module 'eigen3'
+[0.707s] --   Found eigen3, version 3.4.0
+[0.759s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.760s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.810s] -- Checking for module 'flann'
+[0.826s] --   Found flann, version 1.9.1
+[0.908s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.908s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.020s] -- Checking for module 'libusb-1.0'
+[3.054s] --   Found libusb-1.0, version 1.0.25
+[3.115s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.121s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.199s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.443s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.461s] -- Found Qhull version 8.0.2
+[3.697s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.701s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.701s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.702s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.703s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.704s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.705s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.706s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.708s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.708s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.712s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.712s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.712s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.715s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.014s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.200s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.303s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.315s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.331s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.521s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.525s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.708s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.757s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.842s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.865s] -- Found Threads: TRUE  
+[5.649s] -- Found rclcpp_components: 16.0.2 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.773s] -- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)
+[5.795s] -- Found tf2_geometry_msgs: 0.25.1 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.811s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.813s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.813s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.559s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.781s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.782s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dyros/ros2_ws/src/pcl_ros/include>
+[6.782s] -- Configured cppcheck exclude dirs and/or files: 
+[6.790s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.790s] -- Configured cpplint exclude dirs and/or files: 
+[6.790s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.793s] -- Added test 'lint_cmake' to check CMake code style
+[6.795s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.801s] -- Added test 'uncrustify' to check C / C++ code style
+[6.801s] -- Configured uncrustify additional arguments: 
+[6.802s] -- Added test 'xmllint' to check XML markup files
+[6.810s] -- Configuring done
+[6.941s] -- Generating done
+[6.945s] -- Build files have been written to: /home/dyros/ros2_ws/build/pcl_ros
+[6.988s] Invoked command in '/home/dyros/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dyros/ros2_ws/src/pcl_ros -DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/pcl_ros
+[6.996s] Invoking command in '/home/dyros/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/pcl_ros -- -j4 -l4
+[7.081s] [ 16%] [32mBuilding CXX object CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o[0m
+[11.397s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.397s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.397s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.397s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.397s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.397s]   241 |     struct [01;35m[K{[m[K \
+[11.397s]       |            [01;35m[K^[m[K
+[11.397s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.397s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.397s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.397s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.397s]   337 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.397s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.518s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.518s]   289 |       [01;35m[K{[m[K \
+[11.518s]       |       [01;35m[K^[m[K
+[11.518s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[11.519s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[11.519s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.519s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[11.519s]   368 |     [01;36m[KPCL_ADD_RGB[m[K;
+[11.519s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[11.663s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.663s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.664s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.664s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.664s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.664s]   318 |     [01;35m[K{[m[K \
+[11.664s]       |     [01;35m[K^[m[K
+[11.664s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY[m[K’
+[11.664s]   411 |     [01;36m[KPCL_ADD_INTENSITY[m[K;
+[11.664s]       |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.664s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.664s]   411 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+[11.665s]       |                      [01;35m[K^[m[K
+[11.665s]       |                      [31m[K-[m[K
+[11.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.665s]   324 |     [01;35m[K{[m[K \
+[11.665s]       |     [01;35m[K^[m[K
+[11.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_8U[m[K’
+[11.665s]   437 |     [01;36m[KPCL_ADD_INTENSITY_8U[m[K;
+[11.665s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.665s]   437 |     PCL_ADD_INTENSITY_8U[01;35m[K;[m[K
+[11.665s]       |                         [01;35m[K^[m[K
+[11.665s]       |                         [31m[K-[m[K
+[11.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.666s]   330 |     [01;35m[K{[m[K \
+[11.668s]       |     [01;35m[K^[m[K
+[11.668s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_32U[m[K’
+[11.668s]   469 |     [01;36m[KPCL_ADD_INTENSITY_32U[m[K;
+[11.669s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.669s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.669s]   469 |     PCL_ADD_INTENSITY_32U[01;35m[K;[m[K
+[11.669s]       |                          [01;35m[K^[m[K
+[11.669s]       |                          [31m[K-[m[K
+[11.669s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.669s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.675s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.675s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.675s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.675s]   241 |     struct [01;35m[K{[m[K \
+[11.675s]       |            [01;35m[K^[m[K
+[11.675s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.675s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.675s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.676s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.676s]   497 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.676s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.676s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.676s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.676s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.676s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.676s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.680s]   501 |       [01;35m[K{[m[K
+[11.680s]       |       [01;35m[K^[m[K
+[11.680s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.680s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.680s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.680s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.680s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.680s]   241 |     struct [01;35m[K{[m[K \
+[11.680s]       |            [01;35m[K^[m[K
+[11.681s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.681s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.681s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.681s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.681s]   533 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.681s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.681s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.681s]   241 |     struct [01;35m[K{[m[K \
+[11.681s]       |            [01;35m[K^[m[K
+[11.681s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.681s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.683s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.683s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.683s]   573 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.683s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.684s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.684s]   289 |       [01;35m[K{[m[K \
+[11.684s]       |       [01;35m[K^[m[K
+[11.684s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[11.684s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[11.684s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.684s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[11.684s]   574 |     [01;36m[KPCL_ADD_RGB[m[K;
+[11.685s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[11.685s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.685s]   241 |     struct [01;35m[K{[m[K \
+[11.686s]       |            [01;35m[K^[m[K
+[11.686s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.686s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.686s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.686s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.686s]   629 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.686s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.686s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.686s]   289 |       [01;35m[K{[m[K \
+[11.686s]       |       [01;35m[K^[m[K
+[11.686s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[11.686s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[11.686s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.687s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[11.687s]   630 |     [01;36m[KPCL_ADD_RGB[m[K;
+[11.687s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[11.687s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.687s]   241 |     struct [01;35m[K{[m[K \
+[11.687s]       |            [01;35m[K^[m[K
+[11.687s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.687s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.687s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.687s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.687s]   636 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.687s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.688s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.688s]   289 |       [01;35m[K{[m[K \
+[11.688s]       |       [01;35m[K^[m[K
+[11.688s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[11.688s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[11.688s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.688s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[11.688s]   637 |     [01;36m[KPCL_ADD_RGB[m[K;
+[11.689s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[11.690s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.690s]   241 |     struct [01;35m[K{[m[K \
+[11.690s]       |            [01;35m[K^[m[K
+[11.690s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.690s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.690s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.690s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.690s]   741 |     [01;36m[KPCL_ADD_POINT4D[m[K; // this adds the members x,y,z
+[11.690s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.690s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.690s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.691s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.691s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.691s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.691s]   745 |       [01;35m[K{[m[K
+[11.693s]       |       [01;35m[K^[m[K
+[11.693s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.693s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.693s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.693s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.693s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.693s]   241 |     struct [01;35m[K{[m[K \
+[11.693s]       |            [01;35m[K^[m[K
+[11.694s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.694s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.694s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.694s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.694s]   782 |     [01;36m[KPCL_ADD_POINT4D[m[K;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.694s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.694s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.694s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.694s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.694s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.694s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.695s]   786 |       [01;35m[K{[m[K
+[11.695s]       |       [01;35m[K^[m[K
+[11.695s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.695s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.695s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.695s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.695s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.695s]   241 |     struct [01;35m[K{[m[K \
+[11.695s]       |            [01;35m[K^[m[K
+[11.695s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.695s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.695s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.699s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.699s]   867 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.699s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.700s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.700s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.700s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.700s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.700s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.700s]   871 |       [01;35m[K{[m[K
+[11.700s]       |       [01;35m[K^[m[K
+[11.700s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.700s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.700s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.700s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.700s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.701s]   266 |     struct [01;35m[K{[m[K \
+[11.701s]       |            [01;35m[K^[m[K
+[11.701s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[11.701s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[11.701s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.701s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[11.701s]   883 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[11.701s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.701s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.702s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.703s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.703s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.703s]   887 |       [01;35m[K{[m[K
+[11.703s]       |       [01;35m[K^[m[K
+[11.703s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.703s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.703s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.703s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.703s]   266 |     struct [01;35m[K{[m[K \
+[11.703s]       |            [01;35m[K^[m[K
+[11.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[11.704s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[11.704s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.704s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[11.713s]   924 |     [01;36m[KPCL_ADD_NORMAL4D[m[K;
+[11.714s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.714s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.714s]   241 |     struct [01;35m[K{[m[K \
+[11.714s]       |            [01;35m[K^[m[K
+[11.714s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.714s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.714s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.714s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.714s]   955 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.714s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.714s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.714s]   266 |     struct [01;35m[K{[m[K \
+[11.714s]       |            [01;35m[K^[m[K
+[11.715s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[11.715s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[11.715s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.715s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[11.715s]   956 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[11.715s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.715s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.715s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.715s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.715s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.715s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.715s]   960 |       [01;35m[K{[m[K
+[11.715s]       |       [01;35m[K^[m[K
+[11.715s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.716s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.716s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.716s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.716s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.716s]   241 |     struct [01;35m[K{[m[K \
+[11.716s]       |            [01;35m[K^[m[K
+[11.716s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.716s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.716s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.716s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.716s]  1001 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.716s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.716s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.716s]   266 |     struct [01;35m[K{[m[K \
+[11.717s]       |            [01;35m[K^[m[K
+[11.717s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[11.717s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[11.717s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.717s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[11.717s]  1002 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[11.717s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.717s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.717s]   289 |       [01;35m[K{[m[K \
+[11.717s]       |       [01;35m[K^[m[K
+[11.717s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[11.717s]  1007 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+[11.717s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.717s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.717s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.717s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.718s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.718s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.718s]  1007 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+[11.718s]       |                          [01;35m[K^[m[K
+[11.718s]       |                          [31m[K-[m[K
+[11.718s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.718s]  1006 |       [01;35m[K{[m[K
+[11.718s]       |       [01;35m[K^[m[K
+[11.718s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.718s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.718s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.718s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.718s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.718s]   241 |     struct [01;35m[K{[m[K \
+[11.718s]       |            [01;35m[K^[m[K
+[11.719s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.719s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.719s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.719s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.719s]  1085 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.720s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.720s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.721s]   266 |     struct [01;35m[K{[m[K \
+[11.721s]       |            [01;35m[K^[m[K
+[11.721s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[11.721s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[11.721s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.721s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[11.721s]  1086 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[11.727s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.727s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.727s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.728s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.728s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.728s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.728s]  1090 |       [01;35m[K{[m[K
+[11.728s]       |       [01;35m[K^[m[K
+[11.728s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.728s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.729s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.729s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.729s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.729s]   241 |     struct [01;35m[K{[m[K \
+[11.729s]       |            [01;35m[K^[m[K
+[11.729s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.729s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.729s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.729s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.729s]  1135 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.729s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.729s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.729s]   266 |     struct [01;35m[K{[m[K \
+[11.729s]       |            [01;35m[K^[m[K
+[11.730s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[11.730s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[11.730s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.730s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[11.730s]  1136 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[11.730s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.730s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.730s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.730s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.730s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.730s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.730s]  1140 |       [01;35m[K{[m[K
+[11.730s]       |       [01;35m[K^[m[K
+[11.730s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.730s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.731s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.731s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.731s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.731s]   241 |     struct [01;35m[K{[m[K \
+[11.731s]       |            [01;35m[K^[m[K
+[11.731s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.731s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.731s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.731s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.731s]  1187 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.731s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.731s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.731s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.731s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.732s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.732s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.732s]  1191 |       [01;35m[K{[m[K
+[11.732s]       |       [01;35m[K^[m[K
+[11.732s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.732s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.732s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.732s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.732s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.732s]   241 |     struct [01;35m[K{[m[K \
+[11.732s]       |            [01;35m[K^[m[K
+[11.732s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.732s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.732s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.733s]  1226 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.733s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.733s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.733s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.733s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.733s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.733s]  1230 |       [01;35m[K{[m[K
+[11.733s]       |       [01;35m[K^[m[K
+[11.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.733s]  1326 |       [01;35m[K{[m[K
+[11.733s]       |       [01;35m[K^[m[K
+[11.733s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.733s]  1519 |       [01;35m[K{[m[K
+[11.734s]       |       [01;35m[K^[m[K
+[11.761s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.762s]  1738 |       [01;35m[K{[m[K
+[11.762s]       |       [01;35m[K^[m[K
+[11.762s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.763s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.763s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.763s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.763s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.764s]   241 |     struct [01;35m[K{[m[K \
+[11.764s]       |            [01;35m[K^[m[K
+[11.764s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.764s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.764s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.764s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.764s]  1765 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.764s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.764s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.764s]   241 |     struct [01;35m[K{[m[K \
+[11.765s]       |            [01;35m[K^[m[K
+[11.765s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.765s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.765s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.765s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.765s]  1818 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[11.765s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.772s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.772s]   266 |     struct [01;35m[K{[m[K \
+[11.772s]       |            [01;35m[K^[m[K
+[11.772s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[11.772s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[11.772s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.772s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[11.772s]  1819 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[11.772s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.772s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.772s]   289 |       [01;35m[K{[m[K \
+[11.772s]       |       [01;35m[K^[m[K
+[11.772s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[11.773s]  1824 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+[11.773s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.773s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.773s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.773s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.773s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.773s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.773s]  1824 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+[11.773s]       |                          [01;35m[K^[m[K
+[11.773s]       |                          [31m[K-[m[K
+[11.773s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.773s]  1823 |       [01;35m[K{[m[K
+[11.773s]       |       [01;35m[K^[m[K
+[11.779s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[11.780s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:43[m[K,
+[11.780s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40[m[K,
+[11.780s]                  from [01m[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37[m[K:
+[11.780s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.780s]   241 |     struct [01;35m[K{[m[K \
+[11.780s]       |            [01;35m[K^[m[K
+[11.780s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[11.780s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[11.780s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.780s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[11.780s]  1867 |     [01;36m[KPCL_ADD_POINT4D[m[K;
+[11.780s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[21.173s] [ 33%] [32m[1mLinking CXX static library libpcl_ros_tf.a[0m
+[21.270s] [ 33%] Built target pcl_ros_tf
+[21.295s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud.dir/rclcpp_components/node_main_pcd_to_pointcloud.cpp.o[0m
+[25.855s] [ 66%] [32m[1mLinking CXX executable pcd_to_pointcloud[0m
+[26.038s] [ 66%] Built target pcd_to_pointcloud
+[26.075s] [ 83%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o[0m
+[37.392s] [100%] [32m[1mLinking CXX shared library libpcd_to_pointcloud_lib.so[0m
+[38.495s] [100%] Built target pcd_to_pointcloud_lib
+[38.509s] Invoked command in '/home/dyros/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/pcl_ros -- -j4 -l4
+[38.612s] Invoking command in '/home/dyros/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/pcl_ros
+[38.620s] -- Install configuration: ""
+[38.620s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud
+[38.620s] -- Set runtime path of "/home/dyros/ros2_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud" to ""
+[38.620s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros
+[38.620s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros
+[38.620s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io
+[38.620s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/pcd_io.hpp
+[38.629s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/bag_io.hpp
+[38.631s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_fields.hpp
+[38.631s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_data.hpp
+[38.631s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface
+[38.632s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/moving_least_squares.hpp
+[38.632s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/convex_hull.hpp
+[38.633s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/point_cloud.hpp
+[38.634s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/publisher.hpp
+[38.634s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation
+[38.634s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_clusters.hpp
+[38.634s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/sac_segmentation.hpp
+[38.636s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_polygonal_prism_data.hpp
+[38.637s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/segment_differences.hpp
+[38.637s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/impl
+[38.638s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/impl/transforms.hpp
+[38.638s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/pcl_nodelet.hpp
+[38.639s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/transforms.hpp
+[38.639s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters
+[38.640s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/voxel_grid.hpp
+[38.641s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/radius_outlier_removal.hpp
+[38.643s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/passthrough.hpp
+[38.645s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/project_inliers.hpp
+[38.645s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/filter.hpp
+[38.645s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/statistical_outlier_removal.hpp
+[38.645s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/extract_indices.hpp
+[38.647s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/crop_box.hpp
+[38.648s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features
+[38.648s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/principal_curvatures.hpp
+[38.651s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh.hpp
+[38.651s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_omp.hpp
+[38.651s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/pfh.hpp
+[38.651s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot_omp.hpp
+[38.652s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/feature.hpp
+[38.652s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/boundary.hpp
+[38.652s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot.hpp
+[38.653s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d.hpp
+[38.653s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/moment_invariants.hpp
+[38.654s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/vfh.hpp
+[38.654s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_tbb.hpp
+[38.655s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh_omp.hpp
+[38.656s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/lib/libpcl_ros_tf.a
+[38.661s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so
+[38.664s] -- Set runtime path of "/home/dyros/ros2_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so" to ""
+[38.665s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins
+[38.665s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet
+[38.669s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml
+[38.670s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml
+[38.672s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml
+[38.674s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml
+[38.676s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml
+[38.682s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples
+[38.682s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros
+[38.682s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io
+[38.682s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch
+[38.682s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface
+[38.682s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch
+[38.683s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation
+[38.683s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch
+[38.683s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters
+[38.683s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch
+[38.684s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch
+[38.684s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config
+[38.684s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz
+[38.684s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz
+[38.685s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features
+[38.685s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch
+[38.685s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/data
+[38.685s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/data/.gitignore
+[38.691s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/library_path.sh
+[38.691s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/library_path.dsv
+[38.692s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/ament_index/resource_index/package_run_dependencies/pcl_ros
+[38.692s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/ament_index/resource_index/parent_prefix_path/pcl_ros
+[38.692s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.sh
+[38.692s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.dsv
+[38.692s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/path.sh
+[38.692s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/path.dsv
+[38.692s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.bash
+[38.692s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.sh
+[38.693s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.zsh
+[38.693s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.dsv
+[38.693s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/package.dsv
+[38.693s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/ament_index/resource_index/packages/pcl_ros
+[38.693s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/ament_index/resource_index/rclcpp_components/pcl_ros
+[38.696s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport.cmake
+[38.696s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport-noconfig.cmake
+[38.705s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.705s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[38.705s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_targets-extras.cmake
+[38.705s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.706s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig.cmake
+[38.706s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake
+[38.706s] -- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/package.xml
+[38.706s] Invoked command in '/home/dyros/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/pcl_ros

@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.000407] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000471] (-) JobUnselected: {'identifier': 'moveit_sim_interface'}
+[0.000516] (-) JobUnselected: {'identifier': 'panda_moveit_config'}
+[0.000562] (moveit_api_tutorial) JobQueued: {'identifier': 'moveit_api_tutorial', 'dependencies': OrderedDict()}
+[0.000608] (moveit_api_tutorial) JobStarted: {'identifier': 'moveit_api_tutorial'}
+[0.018776] (moveit_api_tutorial) JobProgress: {'identifier': 'moveit_api_tutorial', 'progress': 'cmake'}
+[0.019192] (moveit_api_tutorial) Command: {'cmd': ['/usr/bin/cmake', '/home/dyros/ros2_ws/src/moveit_api_tutorial', '-DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/moveit_api_tutorial'], 'cwd': '/home/dyros/ros2_ws/build/moveit_api_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1678'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fac436c27605e15bd9f3537c63b68346'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/dyros/Downloads/CoppeliaSim_Edu_V4_4_0_rev0_Ubuntu22_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1678,unix/dyros-VirtualBox:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/23e22b3b_be88_416c_af6e_6c29aec3f893'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/moveit_api_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fac436c27605e15bd9f3537c63b68346'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[0.098201] (-) TimerEvent: {}
+[0.199033] (-) TimerEvent: {}
+[0.219660] (moveit_api_tutorial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.299213] (-) TimerEvent: {}
+[0.318501] (moveit_api_tutorial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.333689] (moveit_api_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399357] (-) TimerEvent: {}
+[0.463351] (moveit_api_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.471495] (moveit_api_tutorial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.472468] (moveit_api_tutorial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.473537] (moveit_api_tutorial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.478936] (moveit_api_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499507] (-) TimerEvent: {}
+[0.602213] (-) TimerEvent: {}
+[0.621058] (moveit_api_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.627474] (moveit_api_tutorial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.627891] (moveit_api_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.628720] (moveit_api_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.634211] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found moveit_common: 2.5.4 (/opt/ros/humble/share/moveit_common/cmake)\n'}
+[0.641418] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.704790] (-) TimerEvent: {}
+[0.805303] (-) TimerEvent: {}
+[0.905654] (-) TimerEvent: {}
+[0.908900] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.005832] (-) TimerEvent: {}
+[1.093386] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found moveit_core: 2.5.4 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[1.106141] (-) TimerEvent: {}
+[1.206460] (-) TimerEvent: {}
+[1.310216] (-) TimerEvent: {}
+[1.410630] (-) TimerEvent: {}
+[1.434154] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.472329] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.510766] (-) TimerEvent: {}
+[1.608142] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.610917] (-) TimerEvent: {}
+[1.619596] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.639287] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.679863] (moveit_api_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.711057] (-) TimerEvent: {}
+[1.733494] (moveit_api_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.811196] (-) TimerEvent: {}
+[1.911604] (-) TimerEvent: {}
+[2.011919] (-) TimerEvent: {}
+[2.091532] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.100846] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.112064] (-) TimerEvent: {}
+[2.212843] (-) TimerEvent: {}
+[2.306192] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.312949] (-) TimerEvent: {}
+[2.362030] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.413150] (-) TimerEvent: {}
+[2.433472] (moveit_api_tutorial) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.459817] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.513331] (-) TimerEvent: {}
+[2.613666] (-) TimerEvent: {}
+[2.714024] (-) TimerEvent: {}
+[2.777183] (moveit_api_tutorial) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.814126] (-) TimerEvent: {}
+[2.914514] (-) TimerEvent: {}
+[3.015125] (-) TimerEvent: {}
+[3.115858] (-) TimerEvent: {}
+[3.216246] (-) TimerEvent: {}
+[3.316188] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.316447] (-) TimerEvent: {}
+[3.316592] (moveit_api_tutorial) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.416701] (-) TimerEvent: {}
+[3.517295] (-) TimerEvent: {}
+[3.617650] (-) TimerEvent: {}
+[3.718025] (-) TimerEvent: {}
+[3.818506] (-) TimerEvent: {}
+[3.918836] (-) TimerEvent: {}
+[4.019201] (-) TimerEvent: {}
+[4.119580] (-) TimerEvent: {}
+[4.219936] (-) TimerEvent: {}
+[4.320238] (-) TimerEvent: {}
+[4.420568] (-) TimerEvent: {}
+[4.521837] (-) TimerEvent: {}
+[4.622210] (-) TimerEvent: {}
+[4.722575] (-) TimerEvent: {}
+[4.822917] (-) TimerEvent: {}
+[4.923950] (-) TimerEvent: {}
+[5.024295] (-) TimerEvent: {}
+[5.124653] (-) TimerEvent: {}
+[5.224997] (-) TimerEvent: {}
+[5.236431] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning/cmake)\n'}
+[5.243858] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[5.325151] (-) TimerEvent: {}
+[5.425511] (-) TimerEvent: {}
+[5.525872] (-) TimerEvent: {}
+[5.626304] (-) TimerEvent: {}
+[5.734193] (-) TimerEvent: {}
+[5.834593] (-) TimerEvent: {}
+[5.911358] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[5.918802] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[5.934760] (-) TimerEvent: {}
+[6.035106] (-) TimerEvent: {}
+[6.135425] (-) TimerEvent: {}
+[6.206664] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[6.238195] (-) TimerEvent: {}
+[6.338579] (-) TimerEvent: {}
+[6.442170] (-) TimerEvent: {}
+[6.542568] (-) TimerEvent: {}
+[6.580933] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[6.642729] (-) TimerEvent: {}
+[6.743055] (-) TimerEvent: {}
+[6.843405] (-) TimerEvent: {}
+[6.943732] (-) TimerEvent: {}
+[7.044114] (-) TimerEvent: {}
+[7.144492] (-) TimerEvent: {}
+[7.242540] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.0 (/opt/ros/humble/share/moveit_visual_tools/cmake)\n'}
+[7.244659] (-) TimerEvent: {}
+[7.344997] (-) TimerEvent: {}
+[7.445399] (-) TimerEvent: {}
+[7.545765] (-) TimerEvent: {}
+[7.646186] (-) TimerEvent: {}
+[7.746544] (-) TimerEvent: {}
+[7.847103] (-) TimerEvent: {}
+[7.899117] (moveit_api_tutorial) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[7.902995] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found OGRE\n'}
+[7.903264] (moveit_api_tutorial) StdoutLine: {'line': b'--   static     : OFF\n'}
+[7.903349] (moveit_api_tutorial) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[7.903421] (moveit_api_tutorial) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[7.903519] (moveit_api_tutorial) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[7.903588] (moveit_api_tutorial) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[7.903656] (moveit_api_tutorial) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[7.903781] (moveit_api_tutorial) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[7.903853] (moveit_api_tutorial) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[7.904565] (moveit_api_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[7.904822] (moveit_api_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[7.904913] (moveit_api_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[7.905028] (moveit_api_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[7.905308] (moveit_api_tutorial) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[7.931196] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[7.938664] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[7.950233] (-) TimerEvent: {}
+[8.050943] (-) TimerEvent: {}
+[8.103722] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[8.104625] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[8.151010] (-) TimerEvent: {}
+[8.227678] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[8.228363] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[8.254176] (-) TimerEvent: {}
+[8.340102] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[8.340350] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for connect\n'}
+[8.354244] (-) TimerEvent: {}
+[8.454232] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[8.454427] (-) TimerEvent: {}
+[8.454601] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for remove\n'}
+[8.554875] (-) TimerEvent: {}
+[8.566569] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[8.566740] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[8.647980] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[8.648228] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[8.655039] (-) TimerEvent: {}
+[8.754796] (moveit_api_tutorial) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[8.755285] (-) TimerEvent: {}
+[8.757022] (moveit_api_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[8.757180] (moveit_api_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[8.855460] (-) TimerEvent: {}
+[8.955764] (-) TimerEvent: {}
+[9.056096] (-) TimerEvent: {}
+[9.156400] (-) TimerEvent: {}
+[9.256712] (-) TimerEvent: {}
+[9.357023] (-) TimerEvent: {}
+[9.457357] (-) TimerEvent: {}
+[9.557662] (-) TimerEvent: {}
+[9.658025] (-) TimerEvent: {}
+[9.758483] (-) TimerEvent: {}
+[9.859046] (-) TimerEvent: {}
+[9.959428] (-) TimerEvent: {}
+[10.049759] (moveit_api_tutorial) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.059612] (-) TimerEvent: {}
+[10.164281] (-) TimerEvent: {}
+[10.192205] (moveit_api_tutorial) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.192523] (moveit_api_tutorial) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.192633] (moveit_api_tutorial) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.194801] (moveit_api_tutorial) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.197170] (moveit_api_tutorial) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.197452] (moveit_api_tutorial) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.198677] (moveit_api_tutorial) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.201493] (moveit_api_tutorial) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.264423] (-) TimerEvent: {}
+[10.277974] (moveit_api_tutorial) StdoutLine: {'line': b'-- Generating done\n'}
+[10.283419] (moveit_api_tutorial) StdoutLine: {'line': b'-- Build files have been written to: /home/dyros/ros2_ws/build/moveit_api_tutorial\n'}
+[10.301460] (moveit_api_tutorial) CommandEnded: {'returncode': 0}
+[10.306663] (moveit_api_tutorial) JobProgress: {'identifier': 'moveit_api_tutorial', 'progress': 'build'}
+[10.306766] (moveit_api_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyros/ros2_ws/build/moveit_api_tutorial', '--', '-j4', '-l4'], 'cwd': '/home/dyros/ros2_ws/build/moveit_api_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1678'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fac436c27605e15bd9f3537c63b68346'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/dyros/Downloads/CoppeliaSim_Edu_V4_4_0_rev0_Ubuntu22_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1678,unix/dyros-VirtualBox:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/23e22b3b_be88_416c_af6e_6c29aec3f893'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/moveit_api_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fac436c27605e15bd9f3537c63b68346'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[10.366209] (-) TimerEvent: {}
+[10.401634] (moveit_api_tutorial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveit_cpp_interface.dir/src/moveit_cpp_interface.cpp.o\x1b[0m\n'}
+[10.466414] (-) TimerEvent: {}
+[10.566738] (-) TimerEvent: {}
+[10.667104] (-) TimerEvent: {}
+[10.767625] (-) TimerEvent: {}
+[10.867959] (-) TimerEvent: {}
+[10.968334] (-) TimerEvent: {}
+[11.068701] (-) TimerEvent: {}
+[11.169031] (-) TimerEvent: {}
+[11.269879] (-) TimerEvent: {}
+[11.370691] (-) TimerEvent: {}
+[11.471111] (-) TimerEvent: {}
+[11.571525] (-) TimerEvent: {}
+[11.674248] (-) TimerEvent: {}
+[11.774776] (-) TimerEvent: {}
+[11.875399] (-) TimerEvent: {}
+[11.975738] (-) TimerEvent: {}
+[12.076073] (-) TimerEvent: {}
+[12.176431] (-) TimerEvent: {}
+[12.276762] (-) TimerEvent: {}
+[12.377110] (-) TimerEvent: {}
+[12.477401] (-) TimerEvent: {}
+[12.577737] (-) TimerEvent: {}
+[12.678171] (-) TimerEvent: {}
+[12.778529] (-) TimerEvent: {}
+[12.878874] (-) TimerEvent: {}
+[12.979320] (-) TimerEvent: {}
+[13.079711] (-) TimerEvent: {}
+[13.180067] (-) TimerEvent: {}
+[13.280510] (-) TimerEvent: {}
+[13.380861] (-) TimerEvent: {}
+[13.481319] (-) TimerEvent: {}
+[13.581729] (-) TimerEvent: {}
+[13.682056] (-) TimerEvent: {}
+[13.782453] (-) TimerEvent: {}
+[13.882776] (-) TimerEvent: {}
+[13.983119] (-) TimerEvent: {}
+[14.083476] (-) TimerEvent: {}
+[14.183785] (-) TimerEvent: {}
+[14.284099] (-) TimerEvent: {}
+[14.384444] (-) TimerEvent: {}
+[14.484779] (-) TimerEvent: {}
+[14.585125] (-) TimerEvent: {}
+[14.685473] (-) TimerEvent: {}
+[14.785881] (-) TimerEvent: {}
+[14.886344] (-) TimerEvent: {}
+[14.986776] (-) TimerEvent: {}
+[15.087110] (-) TimerEvent: {}
+[15.187551] (-) TimerEvent: {}
+[15.288000] (-) TimerEvent: {}
+[15.388543] (-) TimerEvent: {}
+[15.489145] (-) TimerEvent: {}
+[15.589548] (-) TimerEvent: {}
+[15.689904] (-) TimerEvent: {}
+[15.790318] (-) TimerEvent: {}
+[15.890657] (-) TimerEvent: {}
+[15.990982] (-) TimerEvent: {}
+[16.091325] (-) TimerEvent: {}
+[16.191814] (-) TimerEvent: {}
+[16.292150] (-) TimerEvent: {}
+[16.392701] (-) TimerEvent: {}
+[16.493099] (-) TimerEvent: {}
+[16.593465] (-) TimerEvent: {}
+[16.694715] (-) TimerEvent: {}
+[16.795096] (-) TimerEvent: {}
+[16.895435] (-) TimerEvent: {}
+[16.996068] (-) TimerEvent: {}
+[17.096804] (-) TimerEvent: {}
+[17.197139] (-) TimerEvent: {}
+[17.297513] (-) TimerEvent: {}
+[17.397808] (-) TimerEvent: {}
+[17.498191] (-) TimerEvent: {}
+[17.598896] (-) TimerEvent: {}
+[17.699480] (-) TimerEvent: {}
+[17.800923] (-) TimerEvent: {}
+[17.901429] (-) TimerEvent: {}
+[18.002008] (-) TimerEvent: {}
+[18.102598] (-) TimerEvent: {}
+[18.203007] (-) TimerEvent: {}
+[18.303372] (-) TimerEvent: {}
+[18.403709] (-) TimerEvent: {}
+[18.504033] (-) TimerEvent: {}
+[18.604412] (-) TimerEvent: {}
+[18.704785] (-) TimerEvent: {}
+[18.805164] (-) TimerEvent: {}
+[18.905582] (-) TimerEvent: {}
+[19.005927] (-) TimerEvent: {}
+[19.106309] (-) TimerEvent: {}
+[19.206693] (-) TimerEvent: {}
+[19.307052] (-) TimerEvent: {}
+[19.407367] (-) TimerEvent: {}
+[19.507703] (-) TimerEvent: {}
+[19.608315] (-) TimerEvent: {}
+[19.708653] (-) TimerEvent: {}
+[19.811325] (-) TimerEvent: {}
+[19.911663] (-) TimerEvent: {}
+[20.012053] (-) TimerEvent: {}
+[20.113733] (-) TimerEvent: {}
+[20.214051] (-) TimerEvent: {}
+[20.314471] (-) TimerEvent: {}
+[20.414794] (-) TimerEvent: {}
+[20.515168] (-) TimerEvent: {}
+[20.615558] (-) TimerEvent: {}
+[20.716046] (-) TimerEvent: {}
+[20.816413] (-) TimerEvent: {}
+[20.918212] (-) TimerEvent: {}
+[21.018926] (-) TimerEvent: {}
+[21.119272] (-) TimerEvent: {}
+[21.219621] (-) TimerEvent: {}
+[21.319997] (-) TimerEvent: {}
+[21.420319] (-) TimerEvent: {}
+[21.520677] (-) TimerEvent: {}
+[21.621091] (-) TimerEvent: {}
+[21.722059] (-) TimerEvent: {}
+[21.822430] (-) TimerEvent: {}
+[21.922857] (-) TimerEvent: {}
+[22.023446] (-) TimerEvent: {}
+[22.123823] (-) TimerEvent: {}
+[22.224155] (-) TimerEvent: {}
+[22.324462] (-) TimerEvent: {}
+[22.424800] (-) TimerEvent: {}
+[22.525105] (-) TimerEvent: {}
+[22.625547] (-) TimerEvent: {}
+[22.726220] (-) TimerEvent: {}
+[22.826729] (-) TimerEvent: {}
+[22.930201] (-) TimerEvent: {}
+[23.030723] (-) TimerEvent: {}
+[23.131205] (-) TimerEvent: {}
+[23.232144] (-) TimerEvent: {}
+[23.332542] (-) TimerEvent: {}
+[23.432975] (-) TimerEvent: {}
+[23.533309] (-) TimerEvent: {}
+[23.634153] (-) TimerEvent: {}
+[23.734881] (-) TimerEvent: {}
+[23.835286] (-) TimerEvent: {}
+[23.937262] (-) TimerEvent: {}
+[24.037657] (-) TimerEvent: {}
+[24.138022] (-) TimerEvent: {}
+[24.238550] (-) TimerEvent: {}
+[24.339083] (-) TimerEvent: {}
+[24.439512] (-) TimerEvent: {}
+[24.541349] (-) TimerEvent: {}
+[24.641681] (-) TimerEvent: {}
+[24.742153] (-) TimerEvent: {}
+[24.842570] (-) TimerEvent: {}
+[24.942901] (-) TimerEvent: {}
+[25.043266] (-) TimerEvent: {}
+[25.143649] (-) TimerEvent: {}
+[25.243987] (-) TimerEvent: {}
+[25.345314] (-) TimerEvent: {}
+[25.446028] (-) TimerEvent: {}
+[25.546472] (-) TimerEvent: {}
+[25.646876] (-) TimerEvent: {}
+[25.747334] (-) TimerEvent: {}
+[25.847798] (-) TimerEvent: {}
+[25.851107] (moveit_api_tutorial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable moveit_cpp_interface\x1b[0m\n'}
+[25.948018] (-) TimerEvent: {}
+[26.048531] (-) TimerEvent: {}
+[26.148913] (-) TimerEvent: {}
+[26.249323] (-) TimerEvent: {}
+[26.354228] (-) TimerEvent: {}
+[26.454568] (-) TimerEvent: {}
+[26.555211] (-) TimerEvent: {}
+[26.655694] (-) TimerEvent: {}
+[26.756007] (-) TimerEvent: {}
+[26.849580] (moveit_api_tutorial) StdoutLine: {'line': b'[100%] Built target moveit_cpp_interface\n'}
+[26.856132] (-) TimerEvent: {}
+[26.882362] (moveit_api_tutorial) CommandEnded: {'returncode': 0}
+[26.925251] (moveit_api_tutorial) JobProgress: {'identifier': 'moveit_api_tutorial', 'progress': 'install'}
+[26.932732] (moveit_api_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyros/ros2_ws/build/moveit_api_tutorial'], 'cwd': '/home/dyros/ros2_ws/build/moveit_api_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1678'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fac436c27605e15bd9f3537c63b68346'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/dyros/Downloads/CoppeliaSim_Edu_V4_4_0_rev0_Ubuntu22_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1678,unix/dyros-VirtualBox:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/23e22b3b_be88_416c_af6e_6c29aec3f893'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/moveit_api_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fac436c27605e15bd9f3537c63b68346'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[26.938921] (moveit_api_tutorial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.939156] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/lib/moveit_api_tutorial/moveit_cpp_interface\n'}
+[26.940031] (moveit_api_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/moveit_api_tutorial/lib/moveit_api_tutorial/moveit_cpp_interface" to ""\n'}
+[26.940234] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/ament_index/resource_index/package_run_dependencies/moveit_api_tutorial\n'}
+[26.940396] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/ament_index/resource_index/parent_prefix_path/moveit_api_tutorial\n'}
+[26.940540] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/environment/ament_prefix_path.sh\n'}
+[26.940719] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/environment/ament_prefix_path.dsv\n'}
+[26.940870] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/environment/path.sh\n'}
+[26.941034] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/environment/path.dsv\n'}
+[26.941171] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/local_setup.bash\n'}
+[26.941457] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/local_setup.sh\n'}
+[26.941607] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/local_setup.zsh\n'}
+[26.941697] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/local_setup.dsv\n'}
+[26.941839] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/package.dsv\n'}
+[26.941972] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/ament_index/resource_index/packages/moveit_api_tutorial\n'}
+[26.942159] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/cmake/moveit_api_tutorialConfig.cmake\n'}
+[26.942245] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/cmake/moveit_api_tutorialConfig-version.cmake\n'}
+[26.942385] (moveit_api_tutorial) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/package.xml\n'}
+[26.944830] (moveit_api_tutorial) CommandEnded: {'returncode': 0}
+[26.958995] (-) TimerEvent: {}
+[27.024462] (moveit_api_tutorial) JobEnded: {'identifier': 'moveit_api_tutorial', 'rc': 0}
+[27.025335] (-) EventReactorShutdown: {}

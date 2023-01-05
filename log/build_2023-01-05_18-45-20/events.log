@@ -1,0 +1,1051 @@
+[0.000000] (-) TimerEvent: {}
+[0.009292] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.009367] (-) JobUnselected: {'identifier': 'moveit_api_tutorial'}
+[0.009392] (-) JobUnselected: {'identifier': 'moveit_sim_interface'}
+[0.009412] (-) JobUnselected: {'identifier': 'panda_moveit_config'}
+[0.009435] (pcl_ros) JobQueued: {'identifier': 'pcl_ros', 'dependencies': OrderedDict()}
+[0.009460] (pcl_ros) JobStarted: {'identifier': 'pcl_ros'}
+[0.035901] (pcl_ros) JobProgress: {'identifier': 'pcl_ros', 'progress': 'cmake'}
+[0.041066] (pcl_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/dyros/ros2_ws/src/pcl_ros', '-DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/pcl_ros'], 'cwd': '/home/dyros/ros2_ws/build/pcl_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1678,unix/dyros-VirtualBox:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c3c365b6_64af_4972_b2a8_484e3c90bfa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/moveit_api_tutorial:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/pcl_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/moveit_api_tutorial:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[0.100534] (-) TimerEvent: {}
+[0.175841] (pcl_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.202821] (-) TimerEvent: {}
+[0.275582] (pcl_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.285473] (pcl_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.304490] (-) TimerEvent: {}
+[0.405442] (-) TimerEvent: {}
+[0.420660] (pcl_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.435653] (pcl_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.435988] (pcl_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.436362] (pcl_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.440697] (pcl_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.508486] (-) TimerEvent: {}
+[0.608818] (-) TimerEvent: {}
+[0.614287] (pcl_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.624751] (pcl_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.625447] (pcl_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.625990] (pcl_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.689997] (pcl_ros) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.708967] (-) TimerEvent: {}
+[0.716787] (pcl_ros) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.768621] (pcl_ros) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.768995] (pcl_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.809102] (-) TimerEvent: {}
+[0.819126] (pcl_ros) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.834908] (pcl_ros) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.909255] (-) TimerEvent: {}
+[0.917383] (pcl_ros) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.917661] (pcl_ros) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.009462] (-) TimerEvent: {}
+[1.109798] (-) TimerEvent: {}
+[1.212501] (-) TimerEvent: {}
+[1.316507] (-) TimerEvent: {}
+[1.419411] (-) TimerEvent: {}
+[1.523347] (-) TimerEvent: {}
+[1.623751] (-) TimerEvent: {}
+[1.724144] (-) TimerEvent: {}
+[1.824596] (-) TimerEvent: {}
+[1.925112] (-) TimerEvent: {}
+[2.026474] (-) TimerEvent: {}
+[2.126820] (-) TimerEvent: {}
+[2.227170] (-) TimerEvent: {}
+[2.328531] (-) TimerEvent: {}
+[2.428937] (-) TimerEvent: {}
+[2.529513] (-) TimerEvent: {}
+[2.629888] (-) TimerEvent: {}
+[2.730348] (-) TimerEvent: {}
+[2.830685] (-) TimerEvent: {}
+[2.931096] (-) TimerEvent: {}
+[3.029576] (pcl_ros) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.031266] (-) TimerEvent: {}
+[3.062982] (pcl_ros) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[3.124121] (pcl_ros) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.130044] (pcl_ros) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.131388] (-) TimerEvent: {}
+[3.208351] (pcl_ros) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.231558] (-) TimerEvent: {}
+[3.331953] (-) TimerEvent: {}
+[3.432362] (-) TimerEvent: {}
+[3.452651] (pcl_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.470577] (pcl_ros) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.532491] (-) TimerEvent: {}
+[3.634865] (-) TimerEvent: {}
+[3.706039] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.709890] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.710085] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.711512] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.712025] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.713340] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.714603] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.715713] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.717062] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.717690] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.721330] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.721657] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.721796] (pcl_ros) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.724735] (pcl_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.735056] (-) TimerEvent: {}
+[3.835576] (-) TimerEvent: {}
+[3.935994] (-) TimerEvent: {}
+[4.023735] (pcl_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.036200] (-) TimerEvent: {}
+[4.136497] (-) TimerEvent: {}
+[4.209688] (pcl_ros) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[4.236666] (-) TimerEvent: {}
+[4.311927] (pcl_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.324542] (pcl_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.336821] (-) TimerEvent: {}
+[4.340210] (pcl_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.376294] (pcl_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.414797] (pcl_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.436986] (-) TimerEvent: {}
+[4.530605] (pcl_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.534536] (pcl_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.537097] (-) TimerEvent: {}
+[4.637454] (-) TimerEvent: {}
+[4.716872] (pcl_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.737552] (-) TimerEvent: {}
+[4.766605] (pcl_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.837732] (-) TimerEvent: {}
+[4.851134] (pcl_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.873640] (pcl_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.937896] (-) TimerEvent: {}
+[5.038326] (-) TimerEvent: {}
+[5.138689] (-) TimerEvent: {}
+[5.239052] (-) TimerEvent: {}
+[5.339466] (-) TimerEvent: {}
+[5.439913] (-) TimerEvent: {}
+[5.540234] (-) TimerEvent: {}
+[5.640599] (-) TimerEvent: {}
+[5.658732] (pcl_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.2 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[5.740736] (-) TimerEvent: {}
+[5.782363] (pcl_ros) StdoutLine: {'line': b'-- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.804438] (pcl_ros) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.1 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.820093] (pcl_ros) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.822361] (pcl_ros) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.822680] (pcl_ros) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.840879] (-) TimerEvent: {}
+[5.941275] (-) TimerEvent: {}
+[6.041740] (-) TimerEvent: {}
+[6.142166] (-) TimerEvent: {}
+[6.242617] (-) TimerEvent: {}
+[6.343002] (-) TimerEvent: {}
+[6.443416] (-) TimerEvent: {}
+[6.543886] (-) TimerEvent: {}
+[6.567894] (pcl_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.643993] (-) TimerEvent: {}
+[6.744389] (-) TimerEvent: {}
+[6.790559] (pcl_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.791340] (pcl_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dyros/ros2_ws/src/pcl_ros/include>\n'}
+[6.791588] (pcl_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.798817] (pcl_ros) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.799060] (pcl_ros) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.799731] (pcl_ros) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.802337] (pcl_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.804557] (pcl_ros) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.810347] (pcl_ros) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.810592] (pcl_ros) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.811689] (pcl_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.819466] (pcl_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.844550] (-) TimerEvent: {}
+[6.944990] (-) TimerEvent: {}
+[6.950275] (pcl_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[6.954216] (pcl_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/dyros/ros2_ws/build/pcl_ros\n'}
+[6.996914] (pcl_ros) CommandEnded: {'returncode': 0}
+[7.004570] (pcl_ros) JobProgress: {'identifier': 'pcl_ros', 'progress': 'build'}
+[7.004659] (pcl_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyros/ros2_ws/build/pcl_ros', '--', '-j4', '-l4'], 'cwd': '/home/dyros/ros2_ws/build/pcl_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1678,unix/dyros-VirtualBox:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c3c365b6_64af_4972_b2a8_484e3c90bfa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/moveit_api_tutorial:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/pcl_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/moveit_api_tutorial:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[7.045882] (-) TimerEvent: {}
+[7.090053] (pcl_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o\x1b[0m\n'}
+[7.146004] (-) TimerEvent: {}
+[7.246437] (-) TimerEvent: {}
+[7.346782] (-) TimerEvent: {}
+[7.447074] (-) TimerEvent: {}
+[7.547449] (-) TimerEvent: {}
+[7.647791] (-) TimerEvent: {}
+[7.748111] (-) TimerEvent: {}
+[7.848420] (-) TimerEvent: {}
+[7.948823] (-) TimerEvent: {}
+[8.050200] (-) TimerEvent: {}
+[8.150702] (-) TimerEvent: {}
+[8.251092] (-) TimerEvent: {}
+[8.351411] (-) TimerEvent: {}
+[8.451759] (-) TimerEvent: {}
+[8.552121] (-) TimerEvent: {}
+[8.652519] (-) TimerEvent: {}
+[8.752867] (-) TimerEvent: {}
+[8.853216] (-) TimerEvent: {}
+[8.953637] (-) TimerEvent: {}
+[9.053979] (-) TimerEvent: {}
+[9.154320] (-) TimerEvent: {}
+[9.254713] (-) TimerEvent: {}
+[9.355120] (-) TimerEvent: {}
+[9.455531] (-) TimerEvent: {}
+[9.555892] (-) TimerEvent: {}
+[9.656445] (-) TimerEvent: {}
+[9.756992] (-) TimerEvent: {}
+[9.857448] (-) TimerEvent: {}
+[9.957775] (-) TimerEvent: {}
+[10.058157] (-) TimerEvent: {}
+[10.158581] (-) TimerEvent: {}
+[10.258968] (-) TimerEvent: {}
+[10.359333] (-) TimerEvent: {}
+[10.459668] (-) TimerEvent: {}
+[10.560118] (-) TimerEvent: {}
+[10.660469] (-) TimerEvent: {}
+[10.760846] (-) TimerEvent: {}
+[10.861248] (-) TimerEvent: {}
+[10.961594] (-) TimerEvent: {}
+[11.062008] (-) TimerEvent: {}
+[11.162447] (-) TimerEvent: {}
+[11.262786] (-) TimerEvent: {}
+[11.363120] (-) TimerEvent: {}
+[11.405777] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.406030] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.406119] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.406190] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.406257] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.406334] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.406428] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.406510] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.406577] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.406643] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.406708] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.406774] (pcl_ros) StderrLine: {'line': b'  337 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.406839] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.463305] (-) TimerEvent: {}
+[11.527498] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.527695] (pcl_ros) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.527790] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.527858] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.527932] (pcl_ros) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[11.527997] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.528061] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.528132] (pcl_ros) StderrLine: {'line': b'  368 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[11.528197] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.563471] (-) TimerEvent: {}
+[11.664030] (-) TimerEvent: {}
+[11.672596] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.672795] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.672907] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.673008] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.673077] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.673147] (pcl_ros) StderrLine: {'line': b'  318 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.673270] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.673345] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.673415] (pcl_ros) StderrLine: {'line': b'  411 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY\x1b[m\x1b[K;\n'}
+[11.673481] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.673746] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.673844] (pcl_ros) StderrLine: {'line': b'  411 |     PCL_ADD_INTENSITY\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[11.673960] (pcl_ros) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.674029] (pcl_ros) StderrLine: {'line': b'      |                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[11.674096] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.674178] (pcl_ros) StderrLine: {'line': b'  324 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.674244] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.674310] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY_8U\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.674383] (pcl_ros) StderrLine: {'line': b'  437 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY_8U\x1b[m\x1b[K;\n'}
+[11.674511] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.674579] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.674657] (pcl_ros) StderrLine: {'line': b'  437 |     PCL_ADD_INTENSITY_8U\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[11.674724] (pcl_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.674790] (pcl_ros) StderrLine: {'line': b'      |                         \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[11.674910] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.674985] (pcl_ros) StderrLine: {'line': b'  330 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.675051] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.677581] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY_32U\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.677712] (pcl_ros) StderrLine: {'line': b'  469 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY_32U\x1b[m\x1b[K;\n'}
+[11.677883] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.678025] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.678231] (pcl_ros) StderrLine: {'line': b'  469 |     PCL_ADD_INTENSITY_32U\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[11.678372] (pcl_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.678487] (pcl_ros) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[11.678600] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.678705] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.678867] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.684155] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.684242] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.684329] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.684498] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.684578] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.684776] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.684847] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.684915] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.684994] (pcl_ros) StderrLine: {'line': b'  497 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.685062] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.685128] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.685193] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.685260] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.685326] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.685391] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.688574] (pcl_ros) StderrLine: {'line': b'  501 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.689095] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.689184] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.689260] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.689330] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.689401] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.689495] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.689714] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.689877] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.689963] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.690035] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.690101] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.690167] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.690246] (pcl_ros) StderrLine: {'line': b'  533 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.690316] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.690486] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.690621] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.690692] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.690757] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.690825] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.691011] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.692689] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.692816] (pcl_ros) StderrLine: {'line': b'  573 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.692896] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.692986] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.693062] (pcl_ros) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.693130] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.693197] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.693679] (pcl_ros) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[11.693756] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.693824] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.693894] (pcl_ros) StderrLine: {'line': b'  574 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[11.693961] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.694496] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.694677] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.694946] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.695028] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.695099] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.695165] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.695284] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.695412] (pcl_ros) StderrLine: {'line': b'  629 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.695484] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.695550] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.695620] (pcl_ros) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.695686] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.695751] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.695819] (pcl_ros) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[11.695884] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.695949] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.696026] (pcl_ros) StderrLine: {'line': b'  630 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[11.696095] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.696164] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.696234] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.696301] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.696514] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.696604] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.696671] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.696739] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.696808] (pcl_ros) StderrLine: {'line': b'  636 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.696879] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.696946] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.697077] (pcl_ros) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.697149] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.697232] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.697355] (pcl_ros) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[11.697432] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.697499] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.697568] (pcl_ros) StderrLine: {'line': b'  637 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[11.698693] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.698976] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.699073] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.699148] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.699217] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.699367] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.699446] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.699513] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.699631] (pcl_ros) StderrLine: {'line': b'  741 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // this adds the members x,y,z\n'}
+[11.699721] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.699815] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.699898] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.699978] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.700059] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.700137] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.700256] (pcl_ros) StderrLine: {'line': b'  745 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.700369] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.702391] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.702504] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.702578] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.702649] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.702737] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.702808] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.702875] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.702947] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.703032] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.703102] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.703285] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.703366] (pcl_ros) StderrLine: {'line': b'  782 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.703434] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.703500] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.703583] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.703653] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.703786] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.703854] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.703930] (pcl_ros) StderrLine: {'line': b'  786 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.703997] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.704061] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.704126] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.704232] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.704301] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.704368] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.704516] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.704589] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.704654] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.704729] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.704794] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.704859] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.708668] (pcl_ros) StderrLine: {'line': b'  867 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.708843] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.708921] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.708992] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.709060] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.709140] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.709219] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.709300] (pcl_ros) StderrLine: {'line': b'  871 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.709386] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.709465] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.709534] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.709616] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.709787] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.709868] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.709943] (pcl_ros) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.710010] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.710098] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.710170] (pcl_ros) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[11.710237] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.710326] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.710413] (pcl_ros) StderrLine: {'line': b'  883 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[11.710504] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.710589] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.710731] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.711908] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.712007] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.712078] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.712150] (pcl_ros) StderrLine: {'line': b'  887 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.712218] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.712284] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.712351] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.712496] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.712605] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.712682] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.712752] (pcl_ros) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.712831] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.712894] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.712960] (pcl_ros) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[11.713024] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.713086] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.713152] (pcl_ros) StderrLine: {'line': b'  924 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K;\n'}
+[11.722945] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.723050] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.723128] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.723229] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.723306] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.723428] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.723494] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.723558] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.723631] (pcl_ros) StderrLine: {'line': b'  955 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.723696] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.723759] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.723824] (pcl_ros) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.723887] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.723949] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.724013] (pcl_ros) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[11.724076] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.724138] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.724201] (pcl_ros) StderrLine: {'line': b'  956 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[11.724264] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.724364] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.724495] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.724563] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.724632] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.724695] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.724761] (pcl_ros) StderrLine: {'line': b'  960 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.724823] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.724891] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.724955] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.725017] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.725080] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.725150] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.725216] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.725309] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.725391] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.725485] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.725555] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.725618] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.725681] (pcl_ros) StderrLine: {'line': b' 1001 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.725745] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.725807] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.725872] (pcl_ros) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.725934] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.725996] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.726059] (pcl_ros) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[11.726120] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.726182] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.726258] (pcl_ros) StderrLine: {'line': b' 1002 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[11.726343] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.726404] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.726468] (pcl_ros) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.726530] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.726592] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.726654] (pcl_ros) StderrLine: {'line': b' 1007 |         \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K;\n'}
+[11.726726] (pcl_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.726788] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.726850] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.726912] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.726975] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.727037] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.727106] (pcl_ros) StderrLine: {'line': b' 1007 |         PCL_ADD_UNION_RGB\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[11.727169] (pcl_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.727276] (pcl_ros) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[11.727353] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.727418] (pcl_ros) StderrLine: {'line': b' 1006 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.727480] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.727541] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.727604] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.727666] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.727728] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.727796] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.727860] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.727922] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.727984] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.728047] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.728194] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.728274] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.728339] (pcl_ros) StderrLine: {'line': b' 1085 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.728414] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.729880] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.729984] (pcl_ros) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.730053] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.730119] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.730279] (pcl_ros) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[11.730344] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.730406] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.730470] (pcl_ros) StderrLine: {'line': b' 1086 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[11.736544] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.736801] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.736894] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.737055] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.737158] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.737233] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.737308] (pcl_ros) StderrLine: {'line': b' 1090 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.737503] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.737753] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.737853] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.737917] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.738036] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.738119] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.738187] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.738250] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.738311] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.738381] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.738448] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.738510] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.738575] (pcl_ros) StderrLine: {'line': b' 1135 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.738637] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.738698] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.738767] (pcl_ros) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.738829] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.738891] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.739019] (pcl_ros) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[11.739082] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.739143] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.739207] (pcl_ros) StderrLine: {'line': b' 1136 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[11.739269] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.739330] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.739392] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.739454] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.739516] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.739577] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.739642] (pcl_ros) StderrLine: {'line': b' 1140 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.739705] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.739767] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.739829] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.739927] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.740012] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.740075] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.740140] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.740202] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.740263] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.740327] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.740450] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.740535] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.740600] (pcl_ros) StderrLine: {'line': b' 1187 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.740671] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.740735] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.740797] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.740886] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.740972] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.741034] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.741099] (pcl_ros) StderrLine: {'line': b' 1191 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.741160] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.741222] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.741283] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.741354] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.741416] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.741478] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.741541] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.741602] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.741664] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.741738] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.741800] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.741940] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.742009] (pcl_ros) StderrLine: {'line': b' 1226 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.742073] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.742134] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.742197] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.742259] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.742321] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.742384] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.742449] (pcl_ros) StderrLine: {'line': b' 1230 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.742511] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.742574] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.742637] (pcl_ros) StderrLine: {'line': b' 1326 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.742700] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.742761] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.742866] (pcl_ros) StderrLine: {'line': b' 1519 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.742937] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.770444] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.770844] (-) TimerEvent: {}
+[11.771529] (pcl_ros) StderrLine: {'line': b' 1738 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.771724] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.771851] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.771969] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.772148] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.772306] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.772482] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.772805] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.773197] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.773390] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.773472] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.773543] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.773610] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.773677] (pcl_ros) StderrLine: {'line': b' 1765 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.773743] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.773806] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.773889] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.773953] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.774015] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.774131] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.774200] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.774261] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.774325] (pcl_ros) StderrLine: {'line': b' 1818 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[11.774397] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.780775] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.781044] (pcl_ros) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.781125] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.781193] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.781276] (pcl_ros) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[11.781341] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.781405] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.781470] (pcl_ros) StderrLine: {'line': b' 1819 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[11.781534] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.781597] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.781673] (pcl_ros) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.781739] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.781803] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.781938] (pcl_ros) StderrLine: {'line': b' 1824 |         \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K;\n'}
+[11.782021] (pcl_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.782084] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.782148] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.782221] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.782286] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.782349] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.782415] (pcl_ros) StderrLine: {'line': b' 1824 |         PCL_ADD_UNION_RGB\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[11.782479] (pcl_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.782541] (pcl_ros) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[11.782605] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.782672] (pcl_ros) StderrLine: {'line': b' 1823 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[11.782737] (pcl_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.788665] (pcl_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[11.789002] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:43\x1b[m\x1b[K,\n'}
+[11.789093] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/include/pcl_ros/transforms.hpp:40\x1b[m\x1b[K,\n'}
+[11.789179] (pcl_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dyros/ros2_ws/src/pcl_ros/src/transforms.cpp:37\x1b[m\x1b[K:\n'}
+[11.789247] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.789322] (pcl_ros) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[11.789389] (pcl_ros) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.789453] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.789525] (pcl_ros) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[11.789590] (pcl_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.789655] (pcl_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.789787] (pcl_ros) StderrLine: {'line': b' 1867 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K;\n'}
+[11.789853] (pcl_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.871103] (-) TimerEvent: {}
+[11.971506] (-) TimerEvent: {}
+[12.071941] (-) TimerEvent: {}
+[12.172382] (-) TimerEvent: {}
+[12.272784] (-) TimerEvent: {}
+[12.373067] (-) TimerEvent: {}
+[12.473455] (-) TimerEvent: {}
+[12.573852] (-) TimerEvent: {}
+[12.674258] (-) TimerEvent: {}
+[12.774652] (-) TimerEvent: {}
+[12.875038] (-) TimerEvent: {}
+[12.975394] (-) TimerEvent: {}
+[13.075741] (-) TimerEvent: {}
+[13.176117] (-) TimerEvent: {}
+[13.276495] (-) TimerEvent: {}
+[13.376888] (-) TimerEvent: {}
+[13.477372] (-) TimerEvent: {}
+[13.577850] (-) TimerEvent: {}
+[13.678280] (-) TimerEvent: {}
+[13.778726] (-) TimerEvent: {}
+[13.879106] (-) TimerEvent: {}
+[13.979447] (-) TimerEvent: {}
+[14.079852] (-) TimerEvent: {}
+[14.180264] (-) TimerEvent: {}
+[14.280689] (-) TimerEvent: {}
+[14.381092] (-) TimerEvent: {}
+[14.481447] (-) TimerEvent: {}
+[14.581819] (-) TimerEvent: {}
+[14.682186] (-) TimerEvent: {}
+[14.782667] (-) TimerEvent: {}
+[14.883088] (-) TimerEvent: {}
+[14.983730] (-) TimerEvent: {}
+[15.084575] (-) TimerEvent: {}
+[15.184977] (-) TimerEvent: {}
+[15.285314] (-) TimerEvent: {}
+[15.385642] (-) TimerEvent: {}
+[15.486111] (-) TimerEvent: {}
+[15.586520] (-) TimerEvent: {}
+[15.688530] (-) TimerEvent: {}
+[15.788885] (-) TimerEvent: {}
+[15.889303] (-) TimerEvent: {}
+[15.989704] (-) TimerEvent: {}
+[16.090082] (-) TimerEvent: {}
+[16.190484] (-) TimerEvent: {}
+[16.290933] (-) TimerEvent: {}
+[16.391394] (-) TimerEvent: {}
+[16.491761] (-) TimerEvent: {}
+[16.592127] (-) TimerEvent: {}
+[16.693215] (-) TimerEvent: {}
+[16.793543] (-) TimerEvent: {}
+[16.894256] (-) TimerEvent: {}
+[16.994621] (-) TimerEvent: {}
+[17.095545] (-) TimerEvent: {}
+[17.195987] (-) TimerEvent: {}
+[17.296302] (-) TimerEvent: {}
+[17.396677] (-) TimerEvent: {}
+[17.497047] (-) TimerEvent: {}
+[17.597466] (-) TimerEvent: {}
+[17.700521] (-) TimerEvent: {}
+[17.801983] (-) TimerEvent: {}
+[17.902394] (-) TimerEvent: {}
+[18.002748] (-) TimerEvent: {}
+[18.103103] (-) TimerEvent: {}
+[18.203508] (-) TimerEvent: {}
+[18.303856] (-) TimerEvent: {}
+[18.404197] (-) TimerEvent: {}
+[18.504519] (-) TimerEvent: {}
+[18.604893] (-) TimerEvent: {}
+[18.705245] (-) TimerEvent: {}
+[18.805593] (-) TimerEvent: {}
+[18.905913] (-) TimerEvent: {}
+[19.006286] (-) TimerEvent: {}
+[19.106680] (-) TimerEvent: {}
+[19.207032] (-) TimerEvent: {}
+[19.307288] (-) TimerEvent: {}
+[19.407665] (-) TimerEvent: {}
+[19.508009] (-) TimerEvent: {}
+[19.608461] (-) TimerEvent: {}
+[19.708844] (-) TimerEvent: {}
+[19.811338] (-) TimerEvent: {}
+[19.911712] (-) TimerEvent: {}
+[20.012165] (-) TimerEvent: {}
+[20.112668] (-) TimerEvent: {}
+[20.213095] (-) TimerEvent: {}
+[20.313661] (-) TimerEvent: {}
+[20.414012] (-) TimerEvent: {}
+[20.514378] (-) TimerEvent: {}
+[20.614777] (-) TimerEvent: {}
+[20.715156] (-) TimerEvent: {}
+[20.815549] (-) TimerEvent: {}
+[20.915887] (-) TimerEvent: {}
+[21.016309] (-) TimerEvent: {}
+[21.116747] (-) TimerEvent: {}
+[21.181927] (pcl_ros) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX static library libpcl_ros_tf.a\x1b[0m\n'}
+[21.216931] (-) TimerEvent: {}
+[21.279299] (pcl_ros) StdoutLine: {'line': b'[ 33%] Built target pcl_ros_tf\n'}
+[21.304059] (pcl_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcd_to_pointcloud.dir/rclcpp_components/node_main_pcd_to_pointcloud.cpp.o\x1b[0m\n'}
+[21.318489] (-) TimerEvent: {}
+[21.418904] (-) TimerEvent: {}
+[21.519272] (-) TimerEvent: {}
+[21.619623] (-) TimerEvent: {}
+[21.720091] (-) TimerEvent: {}
+[21.820522] (-) TimerEvent: {}
+[21.920951] (-) TimerEvent: {}
+[22.021296] (-) TimerEvent: {}
+[22.121660] (-) TimerEvent: {}
+[22.222023] (-) TimerEvent: {}
+[22.322485] (-) TimerEvent: {}
+[22.422913] (-) TimerEvent: {}
+[22.528976] (-) TimerEvent: {}
+[22.629469] (-) TimerEvent: {}
+[22.732506] (-) TimerEvent: {}
+[22.833891] (-) TimerEvent: {}
+[22.935400] (-) TimerEvent: {}
+[23.035982] (-) TimerEvent: {}
+[23.136371] (-) TimerEvent: {}
+[23.237362] (-) TimerEvent: {}
+[23.337705] (-) TimerEvent: {}
+[23.438091] (-) TimerEvent: {}
+[23.538466] (-) TimerEvent: {}
+[23.638842] (-) TimerEvent: {}
+[23.739197] (-) TimerEvent: {}
+[23.839841] (-) TimerEvent: {}
+[23.940235] (-) TimerEvent: {}
+[24.040931] (-) TimerEvent: {}
+[24.141451] (-) TimerEvent: {}
+[24.241886] (-) TimerEvent: {}
+[24.342274] (-) TimerEvent: {}
+[24.442739] (-) TimerEvent: {}
+[24.543300] (-) TimerEvent: {}
+[24.643792] (-) TimerEvent: {}
+[24.744207] (-) TimerEvent: {}
+[24.844678] (-) TimerEvent: {}
+[24.945102] (-) TimerEvent: {}
+[25.045564] (-) TimerEvent: {}
+[25.145995] (-) TimerEvent: {}
+[25.246374] (-) TimerEvent: {}
+[25.347110] (-) TimerEvent: {}
+[25.448525] (-) TimerEvent: {}
+[25.548934] (-) TimerEvent: {}
+[25.649308] (-) TimerEvent: {}
+[25.749623] (-) TimerEvent: {}
+[25.849956] (-) TimerEvent: {}
+[25.864561] (pcl_ros) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable pcd_to_pointcloud\x1b[0m\n'}
+[25.950267] (-) TimerEvent: {}
+[26.046926] (pcl_ros) StdoutLine: {'line': b'[ 66%] Built target pcd_to_pointcloud\n'}
+[26.050386] (-) TimerEvent: {}
+[26.084765] (pcl_ros) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o\x1b[0m\n'}
+[26.150511] (-) TimerEvent: {}
+[26.251085] (-) TimerEvent: {}
+[26.351548] (-) TimerEvent: {}
+[26.452070] (-) TimerEvent: {}
+[26.553296] (-) TimerEvent: {}
+[26.653772] (-) TimerEvent: {}
+[26.754218] (-) TimerEvent: {}
+[26.854736] (-) TimerEvent: {}
+[26.956222] (-) TimerEvent: {}
+[27.056800] (-) TimerEvent: {}
+[27.157170] (-) TimerEvent: {}
+[27.257723] (-) TimerEvent: {}
+[27.358159] (-) TimerEvent: {}
+[27.458595] (-) TimerEvent: {}
+[27.558970] (-) TimerEvent: {}
+[27.659339] (-) TimerEvent: {}
+[27.759761] (-) TimerEvent: {}
+[27.860263] (-) TimerEvent: {}
+[27.960740] (-) TimerEvent: {}
+[28.061103] (-) TimerEvent: {}
+[28.161447] (-) TimerEvent: {}
+[28.261834] (-) TimerEvent: {}
+[28.362186] (-) TimerEvent: {}
+[28.462581] (-) TimerEvent: {}
+[28.563009] (-) TimerEvent: {}
+[28.663952] (-) TimerEvent: {}
+[28.764258] (-) TimerEvent: {}
+[28.864724] (-) TimerEvent: {}
+[28.965079] (-) TimerEvent: {}
+[29.065496] (-) TimerEvent: {}
+[29.165866] (-) TimerEvent: {}
+[29.266190] (-) TimerEvent: {}
+[29.366616] (-) TimerEvent: {}
+[29.466991] (-) TimerEvent: {}
+[29.567397] (-) TimerEvent: {}
+[29.667760] (-) TimerEvent: {}
+[29.768202] (-) TimerEvent: {}
+[29.868618] (-) TimerEvent: {}
+[29.969151] (-) TimerEvent: {}
+[30.069633] (-) TimerEvent: {}
+[30.170086] (-) TimerEvent: {}
+[30.270494] (-) TimerEvent: {}
+[30.370906] (-) TimerEvent: {}
+[30.471217] (-) TimerEvent: {}
+[30.571607] (-) TimerEvent: {}
+[30.671924] (-) TimerEvent: {}
+[30.772342] (-) TimerEvent: {}
+[30.872767] (-) TimerEvent: {}
+[30.976520] (-) TimerEvent: {}
+[31.077375] (-) TimerEvent: {}
+[31.177795] (-) TimerEvent: {}
+[31.278222] (-) TimerEvent: {}
+[31.378640] (-) TimerEvent: {}
+[31.478963] (-) TimerEvent: {}
+[31.579334] (-) TimerEvent: {}
+[31.679765] (-) TimerEvent: {}
+[31.780191] (-) TimerEvent: {}
+[31.880668] (-) TimerEvent: {}
+[31.981014] (-) TimerEvent: {}
+[32.081366] (-) TimerEvent: {}
+[32.184527] (-) TimerEvent: {}
+[32.285083] (-) TimerEvent: {}
+[32.385600] (-) TimerEvent: {}
+[32.486042] (-) TimerEvent: {}
+[32.586417] (-) TimerEvent: {}
+[32.686756] (-) TimerEvent: {}
+[32.788518] (-) TimerEvent: {}
+[32.888903] (-) TimerEvent: {}
+[32.992500] (-) TimerEvent: {}
+[33.092856] (-) TimerEvent: {}
+[33.193314] (-) TimerEvent: {}
+[33.293734] (-) TimerEvent: {}
+[33.394149] (-) TimerEvent: {}
+[33.495205] (-) TimerEvent: {}
+[33.595569] (-) TimerEvent: {}
+[33.696000] (-) TimerEvent: {}
+[33.796478] (-) TimerEvent: {}
+[33.896856] (-) TimerEvent: {}
+[33.997208] (-) TimerEvent: {}
+[34.098086] (-) TimerEvent: {}
+[34.198477] (-) TimerEvent: {}
+[34.298890] (-) TimerEvent: {}
+[34.399401] (-) TimerEvent: {}
+[34.500065] (-) TimerEvent: {}
+[34.600554] (-) TimerEvent: {}
+[34.701099] (-) TimerEvent: {}
+[34.801515] (-) TimerEvent: {}
+[34.901946] (-) TimerEvent: {}
+[35.004911] (-) TimerEvent: {}
+[35.105293] (-) TimerEvent: {}
+[35.205631] (-) TimerEvent: {}
+[35.306012] (-) TimerEvent: {}
+[35.406390] (-) TimerEvent: {}
+[35.506855] (-) TimerEvent: {}
+[35.607173] (-) TimerEvent: {}
+[35.707507] (-) TimerEvent: {}
+[35.807850] (-) TimerEvent: {}
+[35.908541] (-) TimerEvent: {}
+[36.008877] (-) TimerEvent: {}
+[36.109227] (-) TimerEvent: {}
+[36.209594] (-) TimerEvent: {}
+[36.309957] (-) TimerEvent: {}
+[36.410416] (-) TimerEvent: {}
+[36.510792] (-) TimerEvent: {}
+[36.611190] (-) TimerEvent: {}
+[36.711545] (-) TimerEvent: {}
+[36.811889] (-) TimerEvent: {}
+[36.912269] (-) TimerEvent: {}
+[37.012717] (-) TimerEvent: {}
+[37.113210] (-) TimerEvent: {}
+[37.213655] (-) TimerEvent: {}
+[37.314051] (-) TimerEvent: {}
+[37.400971] (pcl_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpcd_to_pointcloud_lib.so\x1b[0m\n'}
+[37.414243] (-) TimerEvent: {}
+[37.514706] (-) TimerEvent: {}
+[37.615143] (-) TimerEvent: {}
+[37.715635] (-) TimerEvent: {}
+[37.816308] (-) TimerEvent: {}
+[37.917067] (-) TimerEvent: {}
+[38.018013] (-) TimerEvent: {}
+[38.118694] (-) TimerEvent: {}
+[38.219192] (-) TimerEvent: {}
+[38.320053] (-) TimerEvent: {}
+[38.421464] (-) TimerEvent: {}
+[38.504594] (pcl_ros) StdoutLine: {'line': b'[100%] Built target pcd_to_pointcloud_lib\n'}
+[38.517920] (pcl_ros) CommandEnded: {'returncode': 0}
+[38.521621] (-) TimerEvent: {}
+[38.604610] (pcl_ros) JobProgress: {'identifier': 'pcl_ros', 'progress': 'install'}
+[38.620743] (pcl_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyros/ros2_ws/build/pcl_ros'], 'cwd': '/home/dyros/ros2_ws/build/pcl_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1678,unix/dyros-VirtualBox:/tmp/.ICE-unix/1678'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c3c365b6_64af_4972_b2a8_484e3c90bfa1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/moveit_api_tutorial:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/pcl_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/moveit_api_tutorial:/home/dyros/ros2_ws/install/franka_description:/opt/ros/humble')]), 'shell': False}
+[38.623006] (-) TimerEvent: {}
+[38.629019] (pcl_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.629204] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud\n'}
+[38.629288] (pcl_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud" to ""\n'}
+[38.629365] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros\n'}
+[38.629438] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros\n'}
+[38.629579] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io\n'}
+[38.629656] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/pcd_io.hpp\n'}
+[38.638386] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/bag_io.hpp\n'}
+[38.639994] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_fields.hpp\n'}
+[38.640184] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_data.hpp\n'}
+[38.640748] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface\n'}
+[38.640949] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/moving_least_squares.hpp\n'}
+[38.641694] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/convex_hull.hpp\n'}
+[38.642430] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/point_cloud.hpp\n'}
+[38.642960] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/publisher.hpp\n'}
+[38.643489] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation\n'}
+[38.643643] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_clusters.hpp\n'}
+[38.643809] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/sac_segmentation.hpp\n'}
+[38.644940] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_polygonal_prism_data.hpp\n'}
+[38.646079] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/segment_differences.hpp\n'}
+[38.646715] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/impl\n'}
+[38.647036] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/impl/transforms.hpp\n'}
+[38.647396] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/pcl_nodelet.hpp\n'}
+[38.648274] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/transforms.hpp\n'}
+[38.648703] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters\n'}
+[38.648936] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/voxel_grid.hpp\n'}
+[38.650651] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/radius_outlier_removal.hpp\n'}
+[38.651820] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/passthrough.hpp\n'}
+[38.654244] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/project_inliers.hpp\n'}
+[38.654480] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/filter.hpp\n'}
+[38.654569] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/statistical_outlier_removal.hpp\n'}
+[38.654645] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/extract_indices.hpp\n'}
+[38.656074] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/crop_box.hpp\n'}
+[38.656737] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features\n'}
+[38.657236] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/principal_curvatures.hpp\n'}
+[38.660482] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh.hpp\n'}
+[38.660702] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_omp.hpp\n'}
+[38.660811] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/pfh.hpp\n'}
+[38.660887] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot_omp.hpp\n'}
+[38.660986] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/feature.hpp\n'}
+[38.661070] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/boundary.hpp\n'}
+[38.661140] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot.hpp\n'}
+[38.661959] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d.hpp\n'}
+[38.662450] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/moment_invariants.hpp\n'}
+[38.662953] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/vfh.hpp\n'}
+[38.663442] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_tbb.hpp\n'}
+[38.664665] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh_omp.hpp\n'}
+[38.665398] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/lib/libpcl_ros_tf.a\n'}
+[38.670036] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so\n'}
+[38.673789] (pcl_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so" to ""\n'}
+[38.674030] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins\n'}
+[38.674128] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet\n'}
+[38.678485] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml\n'}
+[38.679051] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml\n'}
+[38.680832] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml\n'}
+[38.683278] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml\n'}
+[38.684352] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml\n'}
+[38.690912] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples\n'}
+[38.691166] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros\n'}
+[38.691302] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io\n'}
+[38.691447] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch\n'}
+[38.691626] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface\n'}
+[38.691774] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch\n'}
+[38.691907] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation\n'}
+[38.692038] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch\n'}
+[38.692172] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters\n'}
+[38.692293] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch\n'}
+[38.692506] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch\n'}
+[38.693369] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config\n'}
+[38.693603] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz\n'}
+[38.693752] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz\n'}
+[38.693882] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features\n'}
+[38.694007] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch\n'}
+[38.694142] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/data\n'}
+[38.694704] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/samples/data/.gitignore\n'}
+[38.694952] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/library_path.sh\n'}
+[38.700629] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/library_path.dsv\n'}
+[38.700901] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/ament_index/resource_index/package_run_dependencies/pcl_ros\n'}
+[38.701014] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/ament_index/resource_index/parent_prefix_path/pcl_ros\n'}
+[38.701140] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.sh\n'}
+[38.701293] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.dsv\n'}
+[38.701446] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/path.sh\n'}
+[38.701568] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/environment/path.dsv\n'}
+[38.701685] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.bash\n'}
+[38.701802] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.sh\n'}
+[38.701930] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.zsh\n'}
+[38.702186] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.dsv\n'}
+[38.702327] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/package.dsv\n'}
+[38.702445] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/ament_index/resource_index/packages/pcl_ros\n'}
+[38.702582] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/ament_index/resource_index/rclcpp_components/pcl_ros\n'}
+[38.702702] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport.cmake\n'}
+[38.705876] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport-noconfig.cmake\n'}
+[38.705985] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[38.714274] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[38.714509] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[38.714665] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[38.714862] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig.cmake\n'}
+[38.715029] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake\n'}
+[38.715137] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/pcl_ros/share/pcl_ros/package.xml\n'}
+[38.715245] (pcl_ros) CommandEnded: {'returncode': 0}
+[38.723143] (-) TimerEvent: {}
+[38.823891] (-) TimerEvent: {}
+[38.843341] (pcl_ros) JobEnded: {'identifier': 'pcl_ros', 'rc': 0}
+[38.854710] (-) EventReactorShutdown: {}

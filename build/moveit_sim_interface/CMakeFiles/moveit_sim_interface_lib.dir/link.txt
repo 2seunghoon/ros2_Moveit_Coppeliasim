@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmoveit_sim_interface_lib.a CMakeFiles/moveit_sim_interface_lib.dir/src/moveit_controller.cpp.o
+/usr/bin/ranlib libmoveit_sim_interface_lib.a

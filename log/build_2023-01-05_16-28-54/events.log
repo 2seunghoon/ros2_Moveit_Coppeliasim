@@ -1,0 +1,588 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (franka_description) JobQueued: {'identifier': 'franka_description', 'dependencies': OrderedDict()}
+[0.000291] (moveit_sim_interface) JobQueued: {'identifier': 'moveit_sim_interface', 'dependencies': OrderedDict()}
+[0.000308] (panda_moveit_config) JobQueued: {'identifier': 'panda_moveit_config', 'dependencies': OrderedDict([('franka_description', '/home/dyros/ros2_ws/install/franka_description')])}
+[0.000328] (franka_description) JobStarted: {'identifier': 'franka_description'}
+[0.032173] (moveit_sim_interface) JobStarted: {'identifier': 'moveit_sim_interface'}
+[0.051393] (franka_description) JobProgress: {'identifier': 'franka_description', 'progress': 'cmake'}
+[0.051484] (franka_description) Command: {'cmd': ['/usr/bin/cmake', '/home/dyros/ros2_ws/src/franka_description', '-DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/franka_description'], 'cwd': '/home/dyros/ros2_ws/build/franka_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1619,unix/dyros-VirtualBox:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c44c35_5c89_443e_8872_b8266d45878e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/franka_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[0.068391] (moveit_sim_interface) JobProgress: {'identifier': 'moveit_sim_interface', 'progress': 'cmake'}
+[0.082636] (moveit_sim_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/dyros/ros2_ws/src/moveit_sim_interface', '-DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/moveit_sim_interface'], 'cwd': '/home/dyros/ros2_ws/build/moveit_sim_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1619,unix/dyros-VirtualBox:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c44c35_5c89_443e_8872_b8266d45878e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/moveit_sim_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[0.110588] (-) TimerEvent: {}
+[0.210957] (-) TimerEvent: {}
+[0.313047] (-) TimerEvent: {}
+[0.414616] (-) TimerEvent: {}
+[0.448196] (moveit_sim_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.506253] (franka_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.514766] (-) TimerEvent: {}
+[0.622397] (-) TimerEvent: {}
+[0.646723] (moveit_sim_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.672565] (moveit_sim_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.703776] (franka_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.704016] (franka_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.723783] (-) TimerEvent: {}
+[0.824267] (-) TimerEvent: {}
+[0.890002] (moveit_sim_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.923894] (franka_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.924346] (-) TimerEvent: {}
+[0.936251] (franka_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.936718] (franka_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.937485] (franka_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.938521] (moveit_sim_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.939116] (moveit_sim_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.939680] (moveit_sim_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.943789] (franka_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.946407] (moveit_sim_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.024520] (-) TimerEvent: {}
+[1.110723] (moveit_sim_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.118881] (moveit_sim_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.119716] (moveit_sim_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.121062] (moveit_sim_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.124937] (-) TimerEvent: {}
+[1.133728] (moveit_sim_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.225055] (-) TimerEvent: {}
+[1.234697] (franka_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.272340] (franka_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.281670] (franka_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.282264] (franka_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.284634] (franka_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.325191] (-) TimerEvent: {}
+[1.427419] (-) TimerEvent: {}
+[1.530537] (-) TimerEvent: {}
+[1.633650] (-) TimerEvent: {}
+[1.635360] (moveit_sim_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.734034] (-) TimerEvent: {}
+[1.747852] (franka_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.847049] (-) TimerEvent: {}
+[1.947397] (franka_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.947612] (-) TimerEvent: {}
+[1.948046] (moveit_sim_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.047732] (-) TimerEvent: {}
+[2.131527] (moveit_sim_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.133006] (moveit_sim_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.148047] (-) TimerEvent: {}
+[2.199822] (moveit_sim_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.248217] (-) TimerEvent: {}
+[2.250986] (moveit_sim_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.309315] (moveit_sim_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.348403] (-) TimerEvent: {}
+[2.449127] (-) TimerEvent: {}
+[2.460276] (moveit_sim_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.470588] (moveit_sim_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.549380] (-) TimerEvent: {}
+[2.652345] (-) TimerEvent: {}
+[2.753018] (-) TimerEvent: {}
+[2.805741] (moveit_sim_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.853263] (-) TimerEvent: {}
+[2.904291] (moveit_sim_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.953424] (-) TimerEvent: {}
+[3.054622] (moveit_sim_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.054922] (-) TimerEvent: {}
+[3.105776] (moveit_sim_interface) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.155099] (-) TimerEvent: {}
+[3.261571] (-) TimerEvent: {}
+[3.363415] (-) TimerEvent: {}
+[3.370872] (moveit_sim_interface) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.371092] (moveit_sim_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.463791] (-) TimerEvent: {}
+[3.565984] (-) TimerEvent: {}
+[3.605465] (moveit_sim_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.605899] (moveit_sim_interface) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.666636] (-) TimerEvent: {}
+[3.727938] (franka_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.741530] (franka_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.743069] (franka_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.746270] (franka_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.755044] (franka_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.762652] (franka_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.766772] (-) TimerEvent: {}
+[3.769784] (franka_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.776735] (franka_description) StdoutLine: {'line': b'-- Build files have been written to: /home/dyros/ros2_ws/build/franka_description\n'}
+[3.803269] (franka_description) CommandEnded: {'returncode': 0}
+[3.804669] (franka_description) JobProgress: {'identifier': 'franka_description', 'progress': 'build'}
+[3.804714] (franka_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyros/ros2_ws/build/franka_description', '--', '-j2', '-l2'], 'cwd': '/home/dyros/ros2_ws/build/franka_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1619,unix/dyros-VirtualBox:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c44c35_5c89_443e_8872_b8266d45878e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/franka_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[3.870597] (-) TimerEvent: {}
+[3.887295] (franka_description) CommandEnded: {'returncode': 0}
+[3.972954] (-) TimerEvent: {}
+[4.030890] (franka_description) JobProgress: {'identifier': 'franka_description', 'progress': 'install'}
+[4.042548] (franka_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyros/ros2_ws/build/franka_description'], 'cwd': '/home/dyros/ros2_ws/build/franka_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1619,unix/dyros-VirtualBox:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c44c35_5c89_443e_8872_b8266d45878e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/franka_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[4.053520] (franka_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.053747] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//launch\n'}
+[4.056919] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py\n'}
+[4.059074] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//robots\n'}
+[4.059817] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//robots/panda_arm.urdf.xacro\n'}
+[4.069368] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//robots/hand.xacro\n'}
+[4.069552] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//robots/panda_arm.xacro\n'}
+[4.069620] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//robots/panda_arm_hand.urdf.xacro\n'}
+[4.069682] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//robots/hand.urdf.xacro\n'}
+[4.069741] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//robots/panda_arm.ros2_control.xacro\n'}
+[4.069813] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes\n'}
+[4.069871] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual\n'}
+[4.069927] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link0.dae\n'}
+[4.078447] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link7.dae\n'}
+[4.078691] (-) TimerEvent: {}
+[4.078828] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/finger.dae\n'}
+[4.080333] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link1.dae\n'}
+[4.089969] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link5.dae\n'}
+[4.098527] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link4.dae\n'}
+[4.100565] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link6.dae\n'}
+[4.110620] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link2.dae\n'}
+[4.123894] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/hand.dae\n'}
+[4.124065] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link3.dae\n'}
+[4.146599] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//rviz\n'}
+[4.146917] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz\n'}
+[4.147006] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description\n'}
+[4.147090] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description\n'}
+[4.147164] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh\n'}
+[4.147255] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv\n'}
+[4.147326] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/environment/path.sh\n'}
+[4.147397] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/environment/path.dsv\n'}
+[4.147475] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/local_setup.bash\n'}
+[4.147545] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/local_setup.sh\n'}
+[4.147613] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/local_setup.zsh\n'}
+[4.147681] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/local_setup.dsv\n'}
+[4.147825] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/package.dsv\n'}
+[4.147907] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description\n'}
+[4.147980] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake\n'}
+[4.148051] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake\n'}
+[4.148208] (franka_description) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/franka_description/share/franka_description/package.xml\n'}
+[4.157259] (franka_description) CommandEnded: {'returncode': 0}
+[4.170186] (moveit_sim_interface) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.2 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[4.195999] (-) TimerEvent: {}
+[4.267906] (franka_description) JobEnded: {'identifier': 'franka_description', 'rc': 0}
+[4.268699] (panda_moveit_config) JobStarted: {'identifier': 'panda_moveit_config'}
+[4.285143] (panda_moveit_config) JobProgress: {'identifier': 'panda_moveit_config', 'progress': 'cmake'}
+[4.285265] (panda_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '/home/dyros/ros2_ws/src/panda_moveit_config', '-DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/panda_moveit_config'], 'cwd': '/home/dyros/ros2_ws/build/panda_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1619,unix/dyros-VirtualBox:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c44c35_5c89_443e_8872_b8266d45878e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/panda_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[4.301060] (-) TimerEvent: {}
+[4.401619] (-) TimerEvent: {}
+[4.484239] (panda_moveit_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[4.502039] (-) TimerEvent: {}
+[4.565794] (moveit_sim_interface) StdoutLine: {'line': b'-- Found control_msgs: 4.1.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[4.602241] (-) TimerEvent: {}
+[4.646725] (panda_moveit_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[4.664800] (panda_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.702472] (-) TimerEvent: {}
+[4.803134] (-) TimerEvent: {}
+[4.850445] (panda_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.850738] (panda_moveit_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.850805] (panda_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.850862] (panda_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.851687] (panda_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.904042] (-) TimerEvent: {}
+[5.010883] (-) TimerEvent: {}
+[5.071566] (panda_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.085772] (panda_moveit_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.086368] (panda_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.087165] (panda_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.095309] (panda_moveit_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.111375] (-) TimerEvent: {}
+[5.212249] (-) TimerEvent: {}
+[5.312728] (-) TimerEvent: {}
+[5.415004] (-) TimerEvent: {}
+[5.485704] (panda_moveit_config) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[5.515208] (-) TimerEvent: {}
+[5.615778] (-) TimerEvent: {}
+[5.716186] (-) TimerEvent: {}
+[5.789307] (moveit_sim_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.816295] (-) TimerEvent: {}
+[5.917465] (-) TimerEvent: {}
+[5.967197] (panda_moveit_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.970802] (panda_moveit_config) StdoutLine: {'line': b'-- Generating done\n'}
+[5.971838] (panda_moveit_config) StdoutLine: {'line': b'-- Build files have been written to: /home/dyros/ros2_ws/build/panda_moveit_config\n'}
+[6.008220] (panda_moveit_config) CommandEnded: {'returncode': 0}
+[6.008647] (panda_moveit_config) JobProgress: {'identifier': 'panda_moveit_config', 'progress': 'build'}
+[6.008682] (panda_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyros/ros2_ws/build/panda_moveit_config', '--', '-j2', '-l2'], 'cwd': '/home/dyros/ros2_ws/build/panda_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1619,unix/dyros-VirtualBox:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c44c35_5c89_443e_8872_b8266d45878e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/panda_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[6.017740] (-) TimerEvent: {}
+[6.034640] (moveit_sim_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.038641] (moveit_sim_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/dyros/ros2_ws/src/moveit_sim_interface/include\n'}
+[6.038815] (moveit_sim_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.038881] (moveit_sim_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.038938] (moveit_sim_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.038992] (moveit_sim_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.039044] (moveit_sim_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.041625] (moveit_sim_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.092117] (moveit_sim_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[6.096340] (moveit_sim_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/dyros/ros2_ws/build/moveit_sim_interface\n'}
+[6.113663] (moveit_sim_interface) CommandEnded: {'returncode': 0}
+[6.114144] (moveit_sim_interface) JobProgress: {'identifier': 'moveit_sim_interface', 'progress': 'build'}
+[6.114176] (moveit_sim_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyros/ros2_ws/build/moveit_sim_interface', '--', '-j2', '-l2'], 'cwd': '/home/dyros/ros2_ws/build/moveit_sim_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1619,unix/dyros-VirtualBox:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c44c35_5c89_443e_8872_b8266d45878e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/moveit_sim_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[6.116954] (panda_moveit_config) CommandEnded: {'returncode': 0}
+[6.117865] (-) TimerEvent: {}
+[6.184097] (panda_moveit_config) JobProgress: {'identifier': 'panda_moveit_config', 'progress': 'install'}
+[6.184175] (panda_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyros/ros2_ws/build/panda_moveit_config'], 'cwd': '/home/dyros/ros2_ws/build/panda_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1619,unix/dyros-VirtualBox:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c44c35_5c89_443e_8872_b8266d45878e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/panda_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[6.198975] (panda_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.199167] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/panda_moveit_config\n'}
+[6.199841] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/panda_moveit_config\n'}
+[6.200751] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.sh\n'}
+[6.202858] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.dsv\n'}
+[6.208080] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/environment/path.sh\n'}
+[6.208231] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/environment/path.dsv\n'}
+[6.208336] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/local_setup.bash\n'}
+[6.208417] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/local_setup.sh\n'}
+[6.210031] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/local_setup.zsh\n'}
+[6.210374] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/local_setup.dsv\n'}
+[6.212434] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/package.dsv\n'}
+[6.212624] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/ament_index/resource_index/packages/panda_moveit_config\n'}
+[6.215535] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig.cmake\n'}
+[6.215756] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig-version.cmake\n'}
+[6.216384] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/package.xml\n'}
+[6.218201] (-) TimerEvent: {}
+[6.218823] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/launch\n'}
+[6.226577] (moveit_sim_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/moveit_sim_interface_lib.dir/src/moveit_controller.cpp.o\x1b[0m\n'}
+[6.226866] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/launch/warehouse_db.launch.py\n'}
+[6.227195] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/launch/spawn_controllers.launch.py\n'}
+[6.227267] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/launch/move_group.launch.py\n'}
+[6.227323] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/launch/setup_assistant.launch.py\n'}
+[6.227377] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/launch/demo.launch.py\n'}
+[6.228352] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/launch/rsp.launch.py\n'}
+[6.228460] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[6.229050] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_rviz.launch.py\n'}
+[6.229664] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config\n'}
+[6.232987] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/initial_positions.yaml\n'}
+[6.233863] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/panda.srdf\n'}
+[6.234000] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/moveit_controllers.yaml\n'}
+[6.234453] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/panda.ros2_control.xacro\n'}
+[6.235853] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/ros2_controllers.yaml\n'}
+[6.236096] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/moveit.rviz\n'}
+[6.237359] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[6.238110] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/joint_limits.yaml\n'}
+[6.238270] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/kinematics.yaml\n'}
+[6.238660] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/sensors_3d.yaml\n'}
+[6.238789] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/panda.urdf.xacro\n'}
+[6.239189] (panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/.setup_assistant\n'}
+[6.245568] (panda_moveit_config) CommandEnded: {'returncode': 0}
+[6.318258] (-) TimerEvent: {}
+[6.388872] (panda_moveit_config) JobEnded: {'identifier': 'panda_moveit_config', 'rc': 0}
+[6.418988] (-) TimerEvent: {}
+[6.521363] (-) TimerEvent: {}
+[6.621838] (-) TimerEvent: {}
+[6.722128] (-) TimerEvent: {}
+[6.823713] (-) TimerEvent: {}
+[6.924139] (-) TimerEvent: {}
+[7.024563] (-) TimerEvent: {}
+[7.125023] (-) TimerEvent: {}
+[7.226100] (-) TimerEvent: {}
+[7.326701] (-) TimerEvent: {}
+[7.427022] (-) TimerEvent: {}
+[7.527326] (-) TimerEvent: {}
+[7.627801] (-) TimerEvent: {}
+[7.737793] (-) TimerEvent: {}
+[7.838286] (-) TimerEvent: {}
+[7.938873] (-) TimerEvent: {}
+[8.039285] (-) TimerEvent: {}
+[8.140045] (-) TimerEvent: {}
+[8.241140] (-) TimerEvent: {}
+[8.350462] (-) TimerEvent: {}
+[8.450988] (-) TimerEvent: {}
+[8.551784] (-) TimerEvent: {}
+[8.655615] (-) TimerEvent: {}
+[8.756202] (-) TimerEvent: {}
+[8.858712] (-) TimerEvent: {}
+[8.959117] (-) TimerEvent: {}
+[9.059884] (-) TimerEvent: {}
+[9.160201] (-) TimerEvent: {}
+[9.261131] (-) TimerEvent: {}
+[9.361556] (-) TimerEvent: {}
+[9.461944] (-) TimerEvent: {}
+[9.562291] (-) TimerEvent: {}
+[9.662981] (-) TimerEvent: {}
+[9.765123] (-) TimerEvent: {}
+[9.865524] (-) TimerEvent: {}
+[9.967943] (-) TimerEvent: {}
+[10.068291] (-) TimerEvent: {}
+[10.168701] (-) TimerEvent: {}
+[10.269117] (-) TimerEvent: {}
+[10.369381] (-) TimerEvent: {}
+[10.470127] (-) TimerEvent: {}
+[10.576462] (-) TimerEvent: {}
+[10.678716] (-) TimerEvent: {}
+[10.779338] (-) TimerEvent: {}
+[10.882278] (-) TimerEvent: {}
+[10.983181] (-) TimerEvent: {}
+[11.092553] (-) TimerEvent: {}
+[11.193344] (-) TimerEvent: {}
+[11.293808] (-) TimerEvent: {}
+[11.394455] (-) TimerEvent: {}
+[11.498584] (-) TimerEvent: {}
+[11.598977] (-) TimerEvent: {}
+[11.699486] (-) TimerEvent: {}
+[11.799945] (-) TimerEvent: {}
+[11.900272] (-) TimerEvent: {}
+[12.000838] (-) TimerEvent: {}
+[12.101643] (-) TimerEvent: {}
+[12.202517] (-) TimerEvent: {}
+[12.303085] (-) TimerEvent: {}
+[12.403709] (-) TimerEvent: {}
+[12.504069] (-) TimerEvent: {}
+[12.604487] (-) TimerEvent: {}
+[12.704833] (-) TimerEvent: {}
+[12.805264] (-) TimerEvent: {}
+[12.905623] (-) TimerEvent: {}
+[13.006047] (-) TimerEvent: {}
+[13.106468] (-) TimerEvent: {}
+[13.206906] (-) TimerEvent: {}
+[13.307246] (-) TimerEvent: {}
+[13.407620] (-) TimerEvent: {}
+[13.508166] (-) TimerEvent: {}
+[13.609173] (-) TimerEvent: {}
+[13.709504] (-) TimerEvent: {}
+[13.809818] (-) TimerEvent: {}
+[13.911839] (-) TimerEvent: {}
+[14.022912] (-) TimerEvent: {}
+[14.124670] (-) TimerEvent: {}
+[14.225170] (-) TimerEvent: {}
+[14.325849] (-) TimerEvent: {}
+[14.426639] (-) TimerEvent: {}
+[14.530755] (-) TimerEvent: {}
+[14.631094] (-) TimerEvent: {}
+[14.731624] (-) TimerEvent: {}
+[14.832185] (-) TimerEvent: {}
+[14.932733] (-) TimerEvent: {}
+[15.033514] (-) TimerEvent: {}
+[15.133938] (-) TimerEvent: {}
+[15.234246] (-) TimerEvent: {}
+[15.335646] (-) TimerEvent: {}
+[15.436182] (-) TimerEvent: {}
+[15.536572] (-) TimerEvent: {}
+[15.637019] (-) TimerEvent: {}
+[15.739206] (-) TimerEvent: {}
+[15.839933] (-) TimerEvent: {}
+[15.940357] (-) TimerEvent: {}
+[16.043114] (-) TimerEvent: {}
+[16.144275] (-) TimerEvent: {}
+[16.244625] (-) TimerEvent: {}
+[16.345223] (-) TimerEvent: {}
+[16.445604] (-) TimerEvent: {}
+[16.550621] (-) TimerEvent: {}
+[16.651125] (-) TimerEvent: {}
+[16.754680] (-) TimerEvent: {}
+[16.855251] (-) TimerEvent: {}
+[16.958622] (-) TimerEvent: {}
+[17.059739] (-) TimerEvent: {}
+[17.160170] (-) TimerEvent: {}
+[17.263323] (-) TimerEvent: {}
+[17.364916] (-) TimerEvent: {}
+[17.465385] (-) TimerEvent: {}
+[17.565737] (-) TimerEvent: {}
+[17.667194] (-) TimerEvent: {}
+[17.774982] (-) TimerEvent: {}
+[17.875520] (-) TimerEvent: {}
+[17.976211] (-) TimerEvent: {}
+[18.079350] (-) TimerEvent: {}
+[18.179751] (-) TimerEvent: {}
+[18.280406] (-) TimerEvent: {}
+[18.381519] (-) TimerEvent: {}
+[18.481908] (-) TimerEvent: {}
+[18.583438] (-) TimerEvent: {}
+[18.687446] (-) TimerEvent: {}
+[18.788006] (-) TimerEvent: {}
+[18.888396] (-) TimerEvent: {}
+[18.990730] (-) TimerEvent: {}
+[19.091085] (-) TimerEvent: {}
+[19.191465] (-) TimerEvent: {}
+[19.292622] (-) TimerEvent: {}
+[19.393020] (-) TimerEvent: {}
+[19.493503] (-) TimerEvent: {}
+[19.593782] (-) TimerEvent: {}
+[19.694180] (-) TimerEvent: {}
+[19.795060] (-) TimerEvent: {}
+[19.895806] (-) TimerEvent: {}
+[19.996158] (-) TimerEvent: {}
+[20.096922] (-) TimerEvent: {}
+[20.197495] (-) TimerEvent: {}
+[20.298595] (-) TimerEvent: {}
+[20.399092] (-) TimerEvent: {}
+[20.500185] (-) TimerEvent: {}
+[20.600562] (-) TimerEvent: {}
+[20.701470] (-) TimerEvent: {}
+[20.802128] (-) TimerEvent: {}
+[20.902476] (-) TimerEvent: {}
+[21.003504] (-) TimerEvent: {}
+[21.104472] (-) TimerEvent: {}
+[21.214977] (-) TimerEvent: {}
+[21.316828] (-) TimerEvent: {}
+[21.417212] (-) TimerEvent: {}
+[21.517775] (-) TimerEvent: {}
+[21.620150] (-) TimerEvent: {}
+[21.720515] (-) TimerEvent: {}
+[21.820882] (-) TimerEvent: {}
+[21.921233] (-) TimerEvent: {}
+[22.021572] (-) TimerEvent: {}
+[22.125694] (-) TimerEvent: {}
+[22.226087] (-) TimerEvent: {}
+[22.326385] (-) TimerEvent: {}
+[22.426803] (-) TimerEvent: {}
+[22.527181] (-) TimerEvent: {}
+[22.627704] (-) TimerEvent: {}
+[22.730418] (-) TimerEvent: {}
+[22.831323] (-) TimerEvent: {}
+[22.932428] (-) TimerEvent: {}
+[23.032910] (-) TimerEvent: {}
+[23.133431] (-) TimerEvent: {}
+[23.234064] (-) TimerEvent: {}
+[23.335091] (-) TimerEvent: {}
+[23.435395] (-) TimerEvent: {}
+[23.535734] (-) TimerEvent: {}
+[23.637214] (-) TimerEvent: {}
+[23.738054] (-) TimerEvent: {}
+[23.838559] (-) TimerEvent: {}
+[23.939079] (-) TimerEvent: {}
+[24.039800] (-) TimerEvent: {}
+[24.140208] (-) TimerEvent: {}
+[24.241371] (-) TimerEvent: {}
+[24.341674] (-) TimerEvent: {}
+[24.442106] (-) TimerEvent: {}
+[24.542606] (-) TimerEvent: {}
+[24.643081] (-) TimerEvent: {}
+[24.743399] (-) TimerEvent: {}
+[24.843772] (-) TimerEvent: {}
+[24.946827] (-) TimerEvent: {}
+[25.047224] (-) TimerEvent: {}
+[25.147715] (-) TimerEvent: {}
+[25.251281] (-) TimerEvent: {}
+[25.352022] (-) TimerEvent: {}
+[25.454564] (-) TimerEvent: {}
+[25.555672] (-) TimerEvent: {}
+[25.656039] (-) TimerEvent: {}
+[25.756416] (-) TimerEvent: {}
+[25.856798] (-) TimerEvent: {}
+[25.957168] (-) TimerEvent: {}
+[26.057603] (-) TimerEvent: {}
+[26.158274] (-) TimerEvent: {}
+[26.258779] (-) TimerEvent: {}
+[26.306801] (moveit_sim_interface) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libmoveit_sim_interface_lib.a\x1b[0m\n'}
+[26.358924] (-) TimerEvent: {}
+[26.459294] (-) TimerEvent: {}
+[26.468219] (moveit_sim_interface) StdoutLine: {'line': b'[ 50%] Built target moveit_sim_interface_lib\n'}
+[26.516488] (moveit_sim_interface) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/moveit_sim_interface.dir/src/main.cpp.o\x1b[0m\n'}
+[26.562698] (-) TimerEvent: {}
+[26.663553] (-) TimerEvent: {}
+[26.764065] (-) TimerEvent: {}
+[26.872333] (-) TimerEvent: {}
+[26.972811] (-) TimerEvent: {}
+[27.073208] (-) TimerEvent: {}
+[27.173612] (-) TimerEvent: {}
+[27.273986] (-) TimerEvent: {}
+[27.374348] (-) TimerEvent: {}
+[27.474748] (-) TimerEvent: {}
+[27.575122] (-) TimerEvent: {}
+[27.675565] (-) TimerEvent: {}
+[27.776076] (-) TimerEvent: {}
+[27.878088] (-) TimerEvent: {}
+[27.978481] (-) TimerEvent: {}
+[28.079304] (-) TimerEvent: {}
+[28.179667] (-) TimerEvent: {}
+[28.279979] (-) TimerEvent: {}
+[28.380693] (-) TimerEvent: {}
+[28.480940] (-) TimerEvent: {}
+[28.581745] (-) TimerEvent: {}
+[28.682095] (-) TimerEvent: {}
+[28.782480] (-) TimerEvent: {}
+[28.883049] (-) TimerEvent: {}
+[28.983377] (-) TimerEvent: {}
+[29.083689] (-) TimerEvent: {}
+[29.183994] (-) TimerEvent: {}
+[29.284398] (-) TimerEvent: {}
+[29.385109] (-) TimerEvent: {}
+[29.485454] (-) TimerEvent: {}
+[29.585809] (-) TimerEvent: {}
+[29.686161] (-) TimerEvent: {}
+[29.788053] (-) TimerEvent: {}
+[29.890078] (-) TimerEvent: {}
+[29.990498] (-) TimerEvent: {}
+[30.090849] (-) TimerEvent: {}
+[30.191360] (-) TimerEvent: {}
+[30.291856] (-) TimerEvent: {}
+[30.392381] (-) TimerEvent: {}
+[30.493183] (-) TimerEvent: {}
+[30.594607] (-) TimerEvent: {}
+[30.695110] (-) TimerEvent: {}
+[30.795527] (-) TimerEvent: {}
+[30.896237] (-) TimerEvent: {}
+[30.996620] (-) TimerEvent: {}
+[31.097808] (-) TimerEvent: {}
+[31.198417] (-) TimerEvent: {}
+[31.298866] (-) TimerEvent: {}
+[31.399341] (-) TimerEvent: {}
+[31.499888] (-) TimerEvent: {}
+[31.600645] (-) TimerEvent: {}
+[31.701100] (-) TimerEvent: {}
+[31.801514] (-) TimerEvent: {}
+[31.902229] (-) TimerEvent: {}
+[32.005402] (-) TimerEvent: {}
+[32.106104] (-) TimerEvent: {}
+[32.207643] (-) TimerEvent: {}
+[32.308349] (-) TimerEvent: {}
+[32.412732] (-) TimerEvent: {}
+[32.513545] (-) TimerEvent: {}
+[32.613923] (-) TimerEvent: {}
+[32.714554] (-) TimerEvent: {}
+[32.815063] (-) TimerEvent: {}
+[32.916303] (-) TimerEvent: {}
+[33.017091] (-) TimerEvent: {}
+[33.122442] (-) TimerEvent: {}
+[33.223197] (-) TimerEvent: {}
+[33.323615] (-) TimerEvent: {}
+[33.425378] (-) TimerEvent: {}
+[33.526772] (-) TimerEvent: {}
+[33.628325] (-) TimerEvent: {}
+[33.728788] (-) TimerEvent: {}
+[33.833715] (-) TimerEvent: {}
+[33.934566] (-) TimerEvent: {}
+[34.035523] (-) TimerEvent: {}
+[34.136642] (-) TimerEvent: {}
+[34.238166] (-) TimerEvent: {}
+[34.339016] (-) TimerEvent: {}
+[34.439634] (-) TimerEvent: {}
+[34.540004] (-) TimerEvent: {}
+[34.640378] (-) TimerEvent: {}
+[34.740675] (-) TimerEvent: {}
+[34.841003] (-) TimerEvent: {}
+[34.941307] (-) TimerEvent: {}
+[35.041694] (-) TimerEvent: {}
+[35.142016] (-) TimerEvent: {}
+[35.242392] (-) TimerEvent: {}
+[35.342789] (-) TimerEvent: {}
+[35.443498] (-) TimerEvent: {}
+[35.508604] (moveit_sim_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable moveit_sim_interface\x1b[0m\n'}
+[35.543656] (-) TimerEvent: {}
+[35.646688] (-) TimerEvent: {}
+[35.747278] (-) TimerEvent: {}
+[35.847619] (-) TimerEvent: {}
+[35.947959] (-) TimerEvent: {}
+[36.051211] (-) TimerEvent: {}
+[36.151932] (-) TimerEvent: {}
+[36.252462] (-) TimerEvent: {}
+[36.353068] (-) TimerEvent: {}
+[36.465913] (-) TimerEvent: {}
+[36.493878] (moveit_sim_interface) StdoutLine: {'line': b'[100%] Built target moveit_sim_interface\n'}
+[36.566144] (-) TimerEvent: {}
+[36.640172] (moveit_sim_interface) CommandEnded: {'returncode': 0}
+[36.676620] (-) TimerEvent: {}
+[36.756775] (moveit_sim_interface) JobProgress: {'identifier': 'moveit_sim_interface', 'progress': 'install'}
+[36.757538] (moveit_sim_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyros/ros2_ws/build/moveit_sim_interface'], 'cwd': '/home/dyros/ros2_ws/build/moveit_sim_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyros'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dyros'), ('OLDPWD', '/home/dyros'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dyros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dyros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dyros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyros-VirtualBox:@/tmp/.ICE-unix/1619,unix/dyros-VirtualBox:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c44c35_5c89_443e_8872_b8266d45878e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/home/dyros/ros2_ws/install/dyros_cmake:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyros/ros2_ws/build/moveit_sim_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=903df1640e33a10c96163b8d63b65e40'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyros/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages:/home/dyros/ros2_ws/install/dyros_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dyros/ros2_ws/install/panda_moveit_config:/home/dyros/ros2_ws/install/moveit_sim_interface:/home/dyros/ros2_ws/install/franka_description:/home/dyros/ros2_ws/install/dyros_urdf_tf:/home/dyros/ros2_ws/install/dyros_cmake:/home/dyros/ros2_ws/install/dyros_tf2:/home/dyros/ros2_ws/install/dyros_python:/opt/ros/humble')]), 'shell': False}
+[36.787500] (moveit_sim_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.787767] (-) TimerEvent: {}
+[36.787886] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/lib/moveit_sim_interface/moveit_sim_interface\n'}
+[36.788041] (moveit_sim_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dyros/ros2_ws/install/moveit_sim_interface/lib/moveit_sim_interface/moveit_sim_interface" to ""\n'}
+[36.788468] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/ament_index/resource_index/package_run_dependencies/moveit_sim_interface\n'}
+[36.795151] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/ament_index/resource_index/parent_prefix_path/moveit_sim_interface\n'}
+[36.802593] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/environment/ament_prefix_path.sh\n'}
+[36.802849] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/environment/ament_prefix_path.dsv\n'}
+[36.802931] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/environment/path.sh\n'}
+[36.803006] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/environment/path.dsv\n'}
+[36.803081] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/local_setup.bash\n'}
+[36.803994] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/local_setup.sh\n'}
+[36.805402] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/local_setup.zsh\n'}
+[36.806119] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/local_setup.dsv\n'}
+[36.806948] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/package.dsv\n'}
+[36.808020] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/ament_index/resource_index/packages/moveit_sim_interface\n'}
+[36.808511] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/cmake/moveit_sim_interfaceConfig.cmake\n'}
+[36.809191] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/cmake/moveit_sim_interfaceConfig-version.cmake\n'}
+[36.809856] (moveit_sim_interface) StdoutLine: {'line': b'-- Installing: /home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/package.xml\n'}
+[36.830595] (moveit_sim_interface) CommandEnded: {'returncode': 0}
+[36.891230] (-) TimerEvent: {}
+[36.991721] (-) TimerEvent: {}
+[37.098658] (-) TimerEvent: {}
+[37.110851] (moveit_sim_interface) JobEnded: {'identifier': 'moveit_sim_interface', 'rc': 0}
+[37.131781] (-) EventReactorShutdown: {}

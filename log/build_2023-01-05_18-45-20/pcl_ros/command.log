@@ -1,0 +1,6 @@
+Invoking command in '/home/dyros/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dyros/ros2_ws/src/pcl_ros -DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/pcl_ros
+Invoked command in '/home/dyros/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dyros/ros2_ws/src/pcl_ros -DCMAKE_INSTALL_PREFIX=/home/dyros/ros2_ws/install/pcl_ros
+Invoking command in '/home/dyros/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/pcl_ros -- -j4 -l4
+Invoked command in '/home/dyros/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/pcl_ros -- -j4 -l4
+Invoking command in '/home/dyros/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/pcl_ros
+Invoked command in '/home/dyros/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/pcl_ros

@@ -1,0 +1,16 @@
+/home/dyros/ros2_ws/install/moveit_api_tutorial/lib/moveit_api_tutorial/moveit_cpp_interface
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/ament_index/resource_index/package_run_dependencies/moveit_api_tutorial
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/ament_index/resource_index/parent_prefix_path/moveit_api_tutorial
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/environment/ament_prefix_path.sh
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/environment/ament_prefix_path.dsv
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/environment/path.sh
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/environment/path.dsv
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/local_setup.bash
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/local_setup.sh
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/local_setup.zsh
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/local_setup.dsv
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/package.dsv
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/ament_index/resource_index/packages/moveit_api_tutorial
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/cmake/moveit_api_tutorialConfig.cmake
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/cmake/moveit_api_tutorialConfig-version.cmake
+/home/dyros/ros2_ws/install/moveit_api_tutorial/share/moveit_api_tutorial/package.xml

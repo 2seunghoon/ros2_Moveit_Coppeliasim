@@ -1,0 +1,16 @@
+/home/dyros/ros2_ws/install/moveit_sim_interface/lib/moveit_sim_interface/moveit_sim_interface
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/ament_index/resource_index/package_run_dependencies/moveit_sim_interface
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/ament_index/resource_index/parent_prefix_path/moveit_sim_interface
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/environment/ament_prefix_path.sh
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/environment/ament_prefix_path.dsv
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/environment/path.sh
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/environment/path.dsv
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/local_setup.bash
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/local_setup.sh
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/local_setup.zsh
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/local_setup.dsv
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/package.dsv
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/ament_index/resource_index/packages/moveit_sim_interface
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/cmake/moveit_sim_interfaceConfig.cmake
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/cmake/moveit_sim_interfaceConfig-version.cmake
+/home/dyros/ros2_ws/install/moveit_sim_interface/share/moveit_sim_interface/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/dyros/ros2_ws/build/moveit_api_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/moveit_api_tutorial -- -j4 -l4
+Invoked command in '/home/dyros/ros2_ws/build/moveit_api_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dyros/ros2_ws/build/moveit_api_tutorial -- -j4 -l4
+Invoking command in '/home/dyros/ros2_ws/build/moveit_api_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/moveit_api_tutorial
+Invoked command in '/home/dyros/ros2_ws/build/moveit_api_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dyros/ros2_ws/build/moveit_api_tutorial
